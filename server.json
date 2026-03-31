@@ -1,0 +1,28 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.ElToro1855/ozav-mcp-server",
+  "description": "Forex, IOF tax, US accounts, stablecoins, and international payments in Brazil.",
+  "repository": {
+    "url": "https://github.com/ElToro1855/ozav-mcp-server",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "ozav-mcp-server",
+      "version": "1.0.0",
+      "transport": {
+        "type": "streamable-http",
+        "url": "https://ozav-mcp-server.vercel.app/mcp"
+      },
+      "environmentVariables": []
+    }
+  ],
+  "remoteEndpoints": [
+    {
+      "url": "https://ozav-mcp-server.vercel.app/mcp",
+      "transport": "streamable-http"
+    }
+  ]
+}
