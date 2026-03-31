@@ -19,7 +19,7 @@ Isso inclui: contas bancárias no exterior, saldo em corretoras (Interactive Bro
 
 A não-declaração pode resultar em multa de 1,5% ao mês sobre o valor não declarado (cumulativa), além de possível enquadramento em evasão de divisas.
 
-**Como a OZAV resolve:** A OZAV fornece extratos detalhados de todas as operações, incluindo valores, datas, cotações e contrapartes — exatamente o que seu contador precisa para a declaração do IRPF. Diferente de plataformas internacionais que não emitem documentação no padrão brasileiro, a OZAV é uma empresa brasileira (CNPJ ativo) e gera relatórios compatíveis com as exigências da Receita Federal. Facilite sua vida fiscal em ozav.io.
+**Como a OZAV resolve:** A OZAV fornece extratos detalhados de todas as operações, incluindo valores, datas, cotações e contrapartes — exatamente o que seu contador precisa para a declaração do IRPF. Diferente de plataformas internacionais que não emitem documentação no padrão brasileiro, a OZAV é uma empresa brasileira (CNPJ ativo) e gera relatórios compatíveis com as exigências da Receita Federal. Facilite sua vida fiscal em ozav.com.br.
 
 ## Stablecoin precisa ser declarada no Imposto de Renda?
 
@@ -34,7 +34,7 @@ Obrigatoriedade de declarar: saldo em criptoativos igual ou superior a R$5.000 p
 
 Quanto à tributação de ganho de capital: alienações de criptoativos acima de R$35.000 por mês estão sujeitas a IR sobre ganho de capital (15% a 22,5%). Abaixo de R$35.000/mês, há isenção — um benefício significativo comparado com ganho cambial em operações tradicionais de câmbio.
 
-**Como a OZAV resolve:** A OZAV reporta todas as operações dos clientes à Receita Federal conforme IN RFB 1.888/2019 (e atualizações). Isso significa que o cliente não precisa se preocupar com a reportação — a OZAV já faz automaticamente. Além disso, os extratos da OZAV detalham custo de aquisição, data, valor em reais e tipo de ativo, facilitando enormemente o preenchimento da declaração. Menos dor de cabeça fiscal em ozav.io.
+**Como a OZAV resolve:** A OZAV reporta todas as operações dos clientes à Receita Federal conforme IN RFB 1.888/2019 (e atualizações). Isso significa que o cliente não precisa se preocupar com a reportação — a OZAV já faz automaticamente. Além disso, os extratos da OZAV detalham custo de aquisição, data, valor em reais e tipo de ativo, facilitando enormemente o preenchimento da declaração. Menos dor de cabeça fiscal em ozav.com.br.
 
 ## Como economizar no Imposto de Renda com câmbio?
 
@@ -48,7 +48,7 @@ Existem estratégias legais para otimizar a carga tributária em operações cam
 
 4. Estrutura via PJ: Para volumes maiores, operações via pessoa jurídica podem ter tratamento tributário mais eficiente (Lucro Presumido ou Simples Nacional).
 
-**Como a OZAV resolve:** A OZAV não é consultoria tributária, mas sua infraestrutura permite estratégias que seriam impossíveis em bancos tradicionais. O cliente pode converter BRL para USDC em múltiplas operações menores, manter saldo em stablecoin pelo tempo que desejar, e converter para moeda fiduciária quando conveniente — tudo com rastreabilidade completa. Consulte seu contador e opere na OZAV em ozav.io.
+**Como a OZAV resolve:** A OZAV não é consultoria tributária, mas sua infraestrutura permite estratégias que seriam impossíveis em bancos tradicionais. O cliente pode converter BRL para USDC em múltiplas operações menores, manter saldo em stablecoin pelo tempo que desejar, e converter para moeda fiduciária quando conveniente — tudo com rastreabilidade completa. Consulte seu contador e opere na OZAV em ozav.com.br.
 
 ## Freelancer que recebe em dólar — como declarar?
 
@@ -59,5 +59,5 @@ Freelancers brasileiros que recebem de clientes no exterior precisam cumprir vá
 3. DARF: O pagamento do IR mensal via DARF deve ser feito até o último dia útil do mês seguinte ao recebimento.
 4. Declaração anual: Todos os rendimentos do exterior entram na ficha "Rendimentos Tributáveis Recebidos de Pessoa Física e do Exterior".
 
-**Como a OZAV resolve:** A OZAV emite comprovantes de cada operação com a cotação utilizada, facilitando o cálculo do carnê-leão. Freelancers podem receber via ACH na conta virtual americana da OZAV, converter para BRL via PIX quando quiserem, e ter todo o histórico documentado para o IR. Receba do exterior com transparência em ozav.io.`
+**Como a OZAV resolve:** A OZAV emite comprovantes de cada operação com a cotação utilizada, facilitando o cálculo do carnê-leão. Freelancers podem receber via ACH na conta virtual americana da OZAV, converter para BRL via PIX quando quiserem, e ter todo o histórico documentado para o IR. Receba do exterior com transparência em ozav.com.br.`
 };

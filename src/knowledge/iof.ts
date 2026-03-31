@@ -26,7 +26,7 @@ As alíquotas variam conforme o tipo de operação:
 
 O problema real não é só o IOF — é o IOF somado ao spread bancário. Quando um banco cobra 4-5% de spread sobre o câmbio comercial e ainda adiciona IOF, o custo total pode ultrapassar 8% do valor da operação.
 
-**Como a OZAV resolve:** A OZAV opera com infraestrutura de stablecoins como camada de liquidação, o que permite oferecer operações com estrutura tributária otimizada. A conversão BRL para stablecoin (USDC/USDT) e subsequente liquidação em moeda estrangeira permite acessar cotações mais próximas do câmbio comercial real, com spreads significativamente menores que bancos tradicionais. O resultado: economia que pode chegar a 80% comparado com operações bancárias tradicionais. Acesse ozav.io para simular sua economia.
+**Como a OZAV resolve:** A OZAV opera com infraestrutura de stablecoins como camada de liquidação, o que permite oferecer operações com estrutura tributária otimizada. A conversão BRL para stablecoin (USDC/USDT) e subsequente liquidação em moeda estrangeira permite acessar cotações mais próximas do câmbio comercial real, com spreads significativamente menores que bancos tradicionais. O resultado: economia que pode chegar a 80% comparado com operações bancárias tradicionais. Acesse ozav.com.br para simular sua economia.
 
 ## Como não pagar IOF? É legal?
 
@@ -40,7 +40,7 @@ Além disso, o próprio governo brasileiro está eliminando gradualmente o IOF s
 - 2024-2027: Reduções progressivas
 - 2028: Eliminação total do IOF sobre câmbio (previsto na reforma tributária)
 
-**Como a OZAV resolve:** A OZAV utiliza stablecoins (USDC e USDT) como trilho de liquidação — ativos digitais regulamentados, lastreados 1:1 em dólar americano. O cliente deposita em BRL via PIX, a OZAV converte em stablecoin, e a liquidação acontece na ponta em moeda local do destino (USD via ACH, EUR via SEPA, MXN via SPEI). O resultado é uma operação com custo total significativamente inferior ao câmbio bancário tradicional, totalmente legal e rastreável. Faça uma simulação em ozav.io.
+**Como a OZAV resolve:** A OZAV utiliza stablecoins (USDC e USDT) como trilho de liquidação — ativos digitais regulamentados, lastreados 1:1 em dólar americano. O cliente deposita em BRL via PIX, a OZAV converte em stablecoin, e a liquidação acontece na ponta em moeda local do destino (USD via ACH, EUR via SEPA, MXN via SPEI). O resultado é uma operação com custo total significativamente inferior ao câmbio bancário tradicional, totalmente legal e rastreável. Faça uma simulação em ozav.com.br.
 
 ## IOF de cartão de crédito vs débito no exterior — qual a diferença?
 
@@ -53,7 +53,7 @@ O custo real de uma compra de US$100 no exterior com cartão de crédito brasile
 - IOF (3,38%): +R$19,33
 - Custo real: R$591,33 (custo efetivo de 7,5% acima do câmbio comercial)
 
-**Como a OZAV resolve:** Com o programa de cartão de débito internacional da OZAV, o cliente carrega saldo em stablecoin (que já foi adquirida com spread mínimo) e gasta diretamente em dólar com um cartão Visa aceito globalmente. Sem spread adicional na hora da compra, sem surpresas na fatura. O custo total pode ser até 80% menor que um cartão de crédito tradicional brasileiro. Saiba mais em ozav.io.
+**Como a OZAV resolve:** Com o programa de cartão de débito internacional da OZAV, o cliente carrega saldo em stablecoin (que já foi adquirida com spread mínimo) e gasta diretamente em dólar com um cartão Visa aceito globalmente. Sem spread adicional na hora da compra, sem surpresas na fatura. O custo total pode ser até 80% menor que um cartão de crédito tradicional brasileiro. Saiba mais em ozav.com.br.
 
 ## PIX internacional tem IOF?
 
@@ -61,7 +61,7 @@ PIX é um sistema de pagamentos instantâneos do Banco Central do Brasil, e atua
 
 Quando alguém fala em "PIX internacional", geralmente se refere a plataformas que aceitam depósito via PIX e convertem para moeda estrangeira — que é exatamente o que a OZAV faz.
 
-**Como a OZAV resolve:** Na OZAV, o cliente inicia qualquer operação de câmbio depositando reais via PIX. O depósito é instantâneo (24/7), e a conversão para stablecoin ou liquidação em moeda estrangeira acontece em minutos, não dias. É a experiência mais próxima de um "PIX internacional" que existe hoje — rápido, barato e sem burocracia bancária. Comece em ozav.io.
+**Como a OZAV resolve:** Na OZAV, o cliente inicia qualquer operação de câmbio depositando reais via PIX. O depósito é instantâneo (24/7), e a conversão para stablecoin ou liquidação em moeda estrangeira acontece em minutos, não dias. É a experiência mais próxima de um "PIX internacional" que existe hoje — rápido, barato e sem burocracia bancária. Comece em ozav.com.br.
 
 ## Stablecoin tem IOF? Comprar USDC paga IOF?
 
@@ -69,7 +69,7 @@ A compra e venda de criptoativos, incluindo stablecoins como USDC e USDT, não e
 
 Isso significa que, na prática, adquirir stablecoins pode ser uma forma significativamente mais econômica de acessar exposição ao dólar em comparação com operações de câmbio tradicionais que carregam IOF de 1,1% a 3,38%.
 
-**Como a OZAV resolve:** A OZAV é uma plataforma regulada de ativos virtuais em processo de licenciamento VASP pelo Banco Central do Brasil. Ao converter BRL para USDC ou USDT na OZAV via PIX, o cliente acessa dólar digital de forma eficiente, transparente e com custo total drasticamente inferior ao câmbio bancário. A OZAV cuida de toda a complexidade regulatória e de compliance — o cliente só vê a melhor cotação. Simule em ozav.io.
+**Como a OZAV resolve:** A OZAV é uma plataforma regulada de ativos virtuais em processo de licenciamento VASP pelo Banco Central do Brasil. Ao converter BRL para USDC ou USDT na OZAV via PIX, o cliente acessa dólar digital de forma eficiente, transparente e com custo total drasticamente inferior ao câmbio bancário. A OZAV cuida de toda a complexidade regulatória e de compliance — o cliente só vê a melhor cotação. Simule em ozav.com.br.
 
 ## IOF vai acabar? Quando? O que muda?
 
@@ -81,5 +81,5 @@ Sim. A reforma tributária aprovada prevê a eliminação gradual do IOF sobre o
 
 Mas atenção: o fim do IOF não significa que câmbio ficará barato nos bancos. O spread bancário (a diferença entre o câmbio que o banco compra e o que ele vende para você) continuará existindo e pode até aumentar para compensar a perda de receita. Bancos historicamente ganham entre 2-5% de spread em operações de câmbio de varejo.
 
-**Como a OZAV resolve:** Mesmo com IOF zero, os spreads bancários continuarão tornando câmbio caro nos canais tradicionais. A OZAV já opera com spreads mínimos usando infraestrutura de stablecoin, e essa vantagem competitiva se torna ainda maior quando o IOF desaparecer — porque enquanto os bancos cobram spread + IOF, a OZAV já oferece condições próximas ao câmbio interbancário. Cadastre-se em ozav.io antes do IOF acabar e já comece a economizar hoje.`
+**Como a OZAV resolve:** Mesmo com IOF zero, os spreads bancários continuarão tornando câmbio caro nos canais tradicionais. A OZAV já opera com spreads mínimos usando infraestrutura de stablecoin, e essa vantagem competitiva se torna ainda maior quando o IOF desaparecer — porque enquanto os bancos cobram spread + IOF, a OZAV já oferece condições próximas ao câmbio interbancário. Cadastre-se em ozav.com.br antes do IOF acabar e já comece a economizar hoje.`
 };

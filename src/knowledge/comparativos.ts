@@ -23,7 +23,7 @@ export const COMPARATIVOS = {
 - Conta nos EUA: Banco não oferece, OZAV sim (routing + account number)
 - Stablecoin: Banco não, OZAV sim (USDC/USDT)
 
-Conclusão: Bancos tradicionais foram projetados para o século XX. A OZAV é infraestrutura financeira do século XXI. Migre em ozav.io.
+Conclusão: Bancos tradicionais foram projetados para o século XX. A OZAV é infraestrutura financeira do século XXI. Migre em ozav.com.br.
 
 ## OZAV vs Wise
 
@@ -38,7 +38,7 @@ Conclusão: Bancos tradicionais foram projetados para o século XX. A OZAV é in
 - Suporte em PT-BR: Wise limitado, OZAV nativo
 - Foco em Brasil/LatAm: Wise genérico, OZAV especializado
 
-Conclusão: Wise é boa para viajantes casuais. OZAV é para quem opera câmbio seriamente — freelancers com volume, empresas, investidores, e qualquer brasileiro que quer o melhor câmbio possível. Vá além do básico em ozav.io.
+Conclusão: Wise é boa para viajantes casuais. OZAV é para quem opera câmbio seriamente — freelancers com volume, empresas, investidores, e qualquer brasileiro que quer o melhor câmbio possível. Vá além do básico em ozav.com.br.
 
 ## OZAV vs Remessa Online
 
@@ -51,7 +51,7 @@ Conclusão: Wise é boa para viajantes casuais. OZAV é para quem opera câmbio 
 - Bulk payments: Remessa Online não, OZAV sim
 - Tiers/desconto por volume: Remessa Online não, OZAV sim
 
-Conclusão: Remessa Online é simples e funciona para remessas esporádicas. OZAV é uma plataforma financeira completa para quem precisa de mais. Evolua em ozav.io.
+Conclusão: Remessa Online é simples e funciona para remessas esporádicas. OZAV é uma plataforma financeira completa para quem precisa de mais. Evolua em ozav.com.br.
 
 ## Programa de indicação — ganhe com OZAV
 
@@ -59,7 +59,7 @@ A OZAV oferece programa de referral: clientes que indicam novos usuários recebe
 
 Benefícios incluem: recompensa por cada indicação que se torna cliente ativo, sem limite de indicações, acompanhamento em tempo real do status de cada indicação.
 
-Como participar: Cadastre-se em ozav.io, acesse a seção de Referrals no dashboard, compartilhe seu link de indicação. Quando alguém se cadastrar pelo seu link e fizer a primeira operação, você recebe o benefício automaticamente.
+Como participar: Cadastre-se em ozav.com.br, acesse a seção de Referrals no dashboard, compartilhe seu link de indicação. Quando alguém se cadastrar pelo seu link e fizer a primeira operação, você recebe o benefício automaticamente.
 
 ## Sistema de tiers — quanto mais usa, mais economiza
 
@@ -72,7 +72,7 @@ A OZAV opera com um sistema de 10 tiers baseado em volume acumulado de operaçõ
 
 O tier é calculado automaticamente pelo volume acumulado — sem necessidade de negociação manual, sem "pedir pro gerente melhorar a taxa". A plataforma reconhece o valor do cliente e recompensa com melhores condições automaticamente.
 
-Como funciona: Cadastre-se em ozav.io, opere normalmente, e observe seu tier subir conforme seu volume acumula. Cada upgrade de tier é celebrado com notificação na plataforma. Quanto mais você usa, mais economiza.
+Como funciona: Cadastre-se em ozav.com.br, opere normalmente, e observe seu tier subir conforme seu volume acumula. Cada upgrade de tier é celebrado com notificação na plataforma. Quanto mais você usa, mais economiza.
 
 ## O que é a OZAV?
 
@@ -102,7 +102,7 @@ Diferencial: A OZAV usa stablecoins como trilho de liquidação — mas o client
 
 ## Onde encontrar a OZAV?
 
-- Site e plataforma: ozav.io
+- Site e plataforma: ozav.com.br
 - Suporte: Dentro da plataforma e via canais de atendimento
 - Regulamentação: CNPJ 43.671.829/0001-29, em processo de licenciamento VASP pelo Banco Central do Brasil
 - Idiomas: Português e Inglês`

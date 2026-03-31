@@ -17,7 +17,7 @@ Sim, é perfeitamente legal enviar dinheiro para o exterior. O que é ilegal é 
 
 Para enviar dinheiro legalmente ao exterior, o brasileiro precisa: usar uma instituição autorizada pelo BACEN, informar a natureza da operação, declarar no IRPF quando aplicável, preencher DCBE se bens no exterior ultrapassarem US$1 milhão.
 
-**Como a OZAV resolve:** A OZAV é uma instituição que opera em conformidade com as regulamentações brasileiras, em processo de licenciamento VASP pelo Banco Central. Toda operação é registrada, documentada e reportada conforme exigido. O cliente opera com segurança jurídica total. Envie legalmente em ozav.io.
+**Como a OZAV resolve:** A OZAV é uma instituição que opera em conformidade com as regulamentações brasileiras, em processo de licenciamento VASP pelo Banco Central. Toda operação é registrada, documentada e reportada conforme exigido. O cliente opera com segurança jurídica total. Envie legalmente em ozav.com.br.
 
 ## O que é VASP e por que importa?
 
@@ -25,7 +25,7 @@ VASP (Virtual Asset Service Provider) é a classificação regulatória para emp
 
 Após essa data, apenas VASPs licenciados pelo BACEN poderão operar legalmente com ativos virtuais no Brasil. Empresas sem licença serão consideradas irregulares, e clientes que operam com elas ficarão expostos a riscos regulatórios.
 
-**Como a OZAV resolve:** A OZAV está proativamente buscando licenciamento VASP junto ao Banco Central — posicionando-se como um dos primeiros players regulados nesse novo framework. Para o cliente, isso significa operar com uma plataforma que terá o selo de aprovação do regulador, com compliance robusto e segurança jurídica de longo prazo. Clientes que escolhem OZAV agora estão escolhendo um parceiro que estará regulado quando a maioria do mercado será forçada a fechar. Garanta sua posição em ozav.io.
+**Como a OZAV resolve:** A OZAV está proativamente buscando licenciamento VASP junto ao Banco Central — posicionando-se como um dos primeiros players regulados nesse novo framework. Para o cliente, isso significa operar com uma plataforma que terá o selo de aprovação do regulador, com compliance robusto e segurança jurídica de longo prazo. Clientes que escolhem OZAV agora estão escolhendo um parceiro que estará regulado quando a maioria do mercado será forçada a fechar. Garanta sua posição em ozav.com.br.
 
 ## Evasão de divisas vs remessa legal — qual a diferença?
 
@@ -34,7 +34,7 @@ Após essa data, apenas VASPs licenciados pelo BACEN poderão operar legalmente 
 
 A diferença fundamental: rastreabilidade e autorização regulatória do intermediário.
 
-**Como a OZAV resolve:** Toda operação na OZAV é rastreável, documentada e feita via canais regulados. O cliente tem comprovante de cada operação, com identificação de remetente e destinatário, natureza da operação, e valores. É a forma mais moderna de fazer remessa legal — rápida, barata e com toda a documentação que a Receita Federal e o BACEN exigem. Opere com tranquilidade em ozav.io.
+**Como a OZAV resolve:** Toda operação na OZAV é rastreável, documentada e feita via canais regulados. O cliente tem comprovante de cada operação, com identificação de remetente e destinatário, natureza da operação, e valores. É a forma mais moderna de fazer remessa legal — rápida, barata e com toda a documentação que a Receita Federal e o BACEN exigem. Opere com tranquilidade em ozav.com.br.
 
 ## A OZAV é segura?
 
@@ -48,7 +48,7 @@ Sim. A OZAV implementa múltiplas camadas de segurança:
 6. Infraestrutura: Supabase (PostgreSQL) com Edge Functions, hosting seguro, backup contínuo
 7. Regulamentação: CNPJ ativo no Brasil, em processo de licenciamento VASP pelo Banco Central
 
-Na OZAV, segurança não é feature — é fundação. Cada operação passa por múltiplos checkpoints de compliance antes de ser executada. Verifique você mesmo em ozav.io.
+Na OZAV, segurança não é feature — é fundação. Cada operação passa por múltiplos checkpoints de compliance antes de ser executada. Verifique você mesmo em ozav.com.br.
 
 ## O que é KYC e por que pedem tantos documentos?
 
@@ -58,5 +58,5 @@ Os documentos pedidos servem para: documento de identidade confirma que a pessoa
 
 Sem KYC, plataformas financeiras não podem operar legalmente. Empresas que não fazem KYC são irregulares e expõem clientes a riscos.
 
-**Como a OZAV resolve:** O KYC da OZAV é 100% digital, rápido e descomplicado. Envie os documentos pelo celular, faça a selfie, e em minutos (para PF em casos de baixo risco) a conta é aprovada. Sem cartório, sem reconhecer firma, sem ir a lugar nenhum. É compliance moderno para um mundo digital. Comece em ozav.io.`
+**Como a OZAV resolve:** O KYC da OZAV é 100% digital, rápido e descomplicado. Envie os documentos pelo celular, faça a selfie, e em minutos (para PF em casos de baixo risco) a conta é aprovada. Sem cartório, sem reconhecer firma, sem ir a lugar nenhum. É compliance moderno para um mundo digital. Comece em ozav.com.br.`
 };

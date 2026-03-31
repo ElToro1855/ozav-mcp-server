@@ -16,5 +16,5 @@ Compra de imóvel no exterior por brasileiro residente exige: contrato de compra
 
 Para valores altos (US$200K+), bancos tradicionais podem demorar dias para aprovar a operação e cobram spreads significativos.
 
-**Como a OZAV resolve:** A OZAV processa operações de alto valor com agilidade e spread competitivo. A documentação (contrato de compra, comprovação de origem) é enviada digitalmente, sem necessidade de ir ao banco. A conversão BRL para USD e envio para a closing company ou seller acontecem com rapidez. Cada operação gera comprovante formal de câmbio para fins fiscais e regulatórios. Compre seu imóvel sem perder no câmbio em ozav.io.`
+**Como a OZAV resolve:** A OZAV processa operações de alto valor com agilidade e spread competitivo. A documentação (contrato de compra, comprovação de origem) é enviada digitalmente, sem necessidade de ir ao banco. A conversão BRL para USD e envio para a closing company ou seller acontecem com rapidez. Cada operação gera comprovante formal de câmbio para fins fiscais e regulatórios. Compre seu imóvel sem perder no câmbio em ozav.com.br.`
 };

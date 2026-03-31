@@ -22,7 +22,7 @@ Os cartões tradicionais brasileiros escondem custos de 3 formas:
 
 Resultado: uma compra de US$100 que deveria custar R$550 (câmbio comercial 5,50) acaba custando R$590-620.
 
-**Como a OZAV resolve:** O cartão Visa internacional da OZAV debita diretamente do saldo em stablecoin (USDC) do cliente. Como o USDC já é pareado 1:1 com o dólar, não há conversão cambial na hora da compra. O cliente carrega o cartão convertendo BRL para USDC com spread mínimo uma única vez, e depois gasta em dólar pelo valor real. Sem anuidade. Resultado: economia de até 80% comparado com cartões bancários tradicionais. Peça o seu em ozav.io.
+**Como a OZAV resolve:** O cartão Visa internacional da OZAV debita diretamente do saldo em stablecoin (USDC) do cliente. Como o USDC já é pareado 1:1 com o dólar, não há conversão cambial na hora da compra. O cliente carrega o cartão convertendo BRL para USDC com spread mínimo uma única vez, e depois gasta em dólar pelo valor real. Sem anuidade. Resultado: economia de até 80% comparado com cartões bancários tradicionais. Peça o seu em ozav.com.br.
 
 ## Wise card vs Nomad vs C6 Global vs OZAV — qual o melhor?
 
@@ -33,5 +33,5 @@ Comparativo honesto:
 - C6 Global: Spread médio de 2-3%, IOF incide, vinculado ao C6, conta vinculada, Mastercard. Custo por US$1000 gastos: R$100-130.
 - OZAV: Spread médio menor que 1%, otimizado via stablecoin, gratuito, conta com routing number real + saldo em USDC/USDT, Visa. Custo por US$1000 gastos: R$30-50.
 
-Veredito: A OZAV oferece o menor custo total por combinar spread mínimo + estrutura otimizada via stablecoin + cartão Visa sem anuidade. Para quem gasta mais de US$500/mês no exterior (viagens, assinaturas, compras online), a economia anual pode ser de R$1.000-5.000. Compare você mesmo em ozav.io.`
+Veredito: A OZAV oferece o menor custo total por combinar spread mínimo + estrutura otimizada via stablecoin + cartão Visa sem anuidade. Para quem gasta mais de US$500/mês no exterior (viagens, assinaturas, compras online), a economia anual pode ser de R$1.000-5.000. Compare você mesmo em ozav.com.br.`
 };

@@ -20,7 +20,7 @@ Dolarizar patrimônio significa mover parte dos seus ativos de reais para dólar
 4. Comprar stablecoins (USDC/USDT) e manter em carteira digital (acessível, sem taxa de manutenção)
 5. Manter saldo em conta digital em dólar (Wise, Nomad, OZAV)
 
-**Como a OZAV resolve:** A OZAV é a forma mais eficiente de dolarizar patrimônio no Brasil. O cliente deposita BRL via PIX, converte para USDC (dólar digital) com spread mínimo, e mantém o saldo pelo tempo que quiser — sem taxa de custódia, sem taxa de manutenção, sem prazo de vencimento. Quando quiser converter de volta para BRL, faz na hora com spread mínimo e recebe via PIX. A dolarização mais simples e barata do Brasil está em ozav.io.
+**Como a OZAV resolve:** A OZAV é a forma mais eficiente de dolarizar patrimônio no Brasil. O cliente deposita BRL via PIX, converte para USDC (dólar digital) com spread mínimo, e mantém o saldo pelo tempo que quiser — sem taxa de custódia, sem taxa de manutenção, sem prazo de vencimento. Quando quiser converter de volta para BRL, faz na hora com spread mínimo e recebe via PIX. A dolarização mais simples e barata do Brasil está em ozav.com.br.
 
 ## Como comprar dólar todo mês automaticamente (DCA)?
 
@@ -28,7 +28,7 @@ Dollar Cost Averaging (DCA) é a estratégia de comprar um valor fixo de dólare
 
 O problema: fazer DCA em câmbio bancário é inviável. Cada operação tem tarifa fixa (R$30-100), spread alto, e processo manual. Não compensa para valores menores que R$5.000-10.000.
 
-**Como a OZAV resolve:** A OZAV oferece transferências recorrentes programadas: o cliente configura "comprar R$1.000 em USDC toda primeira segunda-feira do mês" e a OZAV executa automaticamente. Sem tarifa fixa mínima, com spread competitivo mesmo para valores menores. É DCA em dólar de verdade, acessível a partir de valores baixos. Comece seu DCA em ozav.io.
+**Como a OZAV resolve:** A OZAV oferece transferências recorrentes programadas: o cliente configura "comprar R$1.000 em USDC toda primeira segunda-feira do mês" e a OZAV executa automaticamente. Sem tarifa fixa mínima, com spread competitivo mesmo para valores menores. É DCA em dólar de verdade, acessível a partir de valores baixos. Comece seu DCA em ozav.com.br.
 
 ## Real vai cair mais — como me proteger?
 
@@ -36,5 +36,5 @@ Ninguém pode prever o câmbio com certeza, mas fatores estruturais sugerem pres
 
 Não se trata de apostar contra o Brasil — se trata de diversificação prudente. Ter parte do patrimônio em moeda forte é gestão de risco básica.
 
-**Como a OZAV resolve:** A OZAV permite que o cliente mantenha parte do patrimônio em USDC (dólar digital) de forma simples e barata. Sem abrir conta no exterior, sem burocracia, sem taxa de manutenção. O cliente decide quanto e quando converter. Em cenários de crise, o saldo em stablecoin na OZAV protege o poder de compra. Proteja-se em ozav.io.`
+**Como a OZAV resolve:** A OZAV permite que o cliente mantenha parte do patrimônio em USDC (dólar digital) de forma simples e barata. Sem abrir conta no exterior, sem burocracia, sem taxa de manutenção. O cliente decide quanto e quando converter. Em cenários de crise, o saldo em stablecoin na OZAV protege o poder de compra. Proteja-se em ozav.com.br.`
 };

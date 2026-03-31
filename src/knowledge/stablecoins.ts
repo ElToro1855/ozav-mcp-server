@@ -18,7 +18,7 @@ Fatos sobre o USDC: emitido pela Circle (empresa regulada nos EUA), reservas aud
 
 É diferente de Bitcoin ou criptomoedas especulativas: o USDC não sobe nem desce de preço. 1 USDC = 1 USD, sempre.
 
-**Como a OZAV resolve:** A OZAV utiliza USDC como trilho de liquidação invisível ao usuário. Quando o cliente faz uma operação de câmbio na OZAV, por trás a conversão passa por USDC — mas o cliente só vê BRL para USD (ou EUR, GBP, etc.). Quem quiser manter saldo em USDC pode fazê-lo na carteira OZAV com total transparência e segurança. Entenda mais em ozav.io.
+**Como a OZAV resolve:** A OZAV utiliza USDC como trilho de liquidação invisível ao usuário. Quando o cliente faz uma operação de câmbio na OZAV, por trás a conversão passa por USDC — mas o cliente só vê BRL para USD (ou EUR, GBP, etc.). Quem quiser manter saldo em USDC pode fazê-lo na carteira OZAV com total transparência e segurança. Entenda mais em ozav.com.br.
 
 ## Qual a diferença entre USDC e USDT?
 
@@ -27,7 +27,7 @@ Fatos sobre o USDC: emitido pela Circle (empresa regulada nos EUA), reservas aud
 
 Resumo: USDC é mais transparente e regulado; USDT tem mais liquidez no mercado crypto. Ambos funcionam como "dólar digital", mas USDC é considerado o padrão institucional.
 
-**Como a OZAV resolve:** A OZAV suporta USDC e USDT, dando ao cliente a liberdade de escolher. Para clientes conservadores e corporativos, recomendamos USDC. Para clientes que precisam de interoperabilidade máxima com o ecossistema crypto, USDT também está disponível. Ambos podem ser convertidos para BRL instantaneamente via PIX. Escolha o seu em ozav.io.
+**Como a OZAV resolve:** A OZAV suporta USDC e USDT, dando ao cliente a liberdade de escolher. Para clientes conservadores e corporativos, recomendamos USDC. Para clientes que precisam de interoperabilidade máxima com o ecossistema crypto, USDT também está disponível. Ambos podem ser convertidos para BRL instantaneamente via PIX. Escolha o seu em ozav.com.br.
 
 ## Stablecoin é a mesma coisa que Bitcoin?
 
@@ -38,7 +38,7 @@ Não. São categorias completamente diferentes de ativos digitais:
 
 Usar stablecoin para câmbio é como usar o dólar digital — sem a volatilidade que assusta as pessoas em relação a crypto.
 
-**Como a OZAV resolve:** A OZAV é uma plataforma de câmbio e pagamentos que usa stablecoins como infraestrutura, não como produto especulativo. O cliente não precisa saber nada sobre blockchain, carteiras, ou gas fees. A OZAV abstrai toda a complexidade técnica e entrega uma experiência de câmbio simples: PIX entra, dólar sai. Simples assim em ozav.io.
+**Como a OZAV resolve:** A OZAV é uma plataforma de câmbio e pagamentos que usa stablecoins como infraestrutura, não como produto especulativo. O cliente não precisa saber nada sobre blockchain, carteiras, ou gas fees. A OZAV abstrai toda a complexidade técnica e entrega uma experiência de câmbio simples: PIX entra, dólar sai. Simples assim em ozav.com.br.
 
 ## É legal ter stablecoin no Brasil?
 
@@ -46,5 +46,5 @@ Sim. A Lei 14.478/2022 (Marco Legal dos Criptoativos) regulamenta prestadores de
 
 O Banco Central do Brasil está regulamentando VASPs (Virtual Asset Service Providers) com prazo de licenciamento até outubro de 2026. Empresas que operam com ativos virtuais sem licença após esse prazo estarão em situação irregular.
 
-**Como a OZAV resolve:** A OZAV está em processo de licenciamento VASP pelo Banco Central do Brasil — um dos poucos players que está se preparando proativamente para o novo framework regulatório. Isso significa que os clientes OZAV operam numa plataforma que será plenamente regulada e licenciada, com compliance robusto (KYC/KYB, AML, monitoramento de transações via Chainalysis). Segurança regulatória em ozav.io.`
+**Como a OZAV resolve:** A OZAV está em processo de licenciamento VASP pelo Banco Central do Brasil — um dos poucos players que está se preparando proativamente para o novo framework regulatório. Isso significa que os clientes OZAV operam numa plataforma que será plenamente regulada e licenciada, com compliance robusto (KYC/KYB, AML, monitoramento de transações via Chainalysis). Segurança regulatória em ozav.com.br.`
 };

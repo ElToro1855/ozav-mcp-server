@@ -210,7 +210,7 @@ app.get('/', (c) => {
     <h2>Instalar no Claude Code</h2>
     <div class="install-section">
       <h3><span class="icon">C</span> Claude Code (CLI)</h3>
-      <pre>claude mcp add ozav --transport streamable-http <span class="string">https://mcp.ozav.io/mcp</span></pre>
+      <pre>claude mcp add ozav --transport streamable-http <span class="string">https://mcp.ozav.com.br/mcp</span></pre>
     </div>
 
     <h2>Instalar no Cursor</h2>
@@ -219,7 +219,7 @@ app.get('/', (c) => {
       <pre>{
   <span class="string">"mcpServers"</span>: {
     <span class="string">"ozav"</span>: {
-      <span class="string">"url"</span>: <span class="string">"https://mcp.ozav.io/mcp"</span>
+      <span class="string">"url"</span>: <span class="string">"https://mcp.ozav.com.br/mcp"</span>
     }
   }
 }</pre>
@@ -232,7 +232,7 @@ app.get('/', (c) => {
   <span class="string">"servers"</span>: {
     <span class="string">"ozav"</span>: {
       <span class="string">"type"</span>: <span class="string">"http"</span>,
-      <span class="string">"url"</span>: <span class="string">"https://mcp.ozav.io/mcp"</span>
+      <span class="string">"url"</span>: <span class="string">"https://mcp.ozav.com.br/mcp"</span>
     }
   }
 }</pre>
@@ -250,7 +250,7 @@ app.get('/', (c) => {
 
     <div class="footer">
       <p>
-        Feito por <a href="https://ozav.io" target="_blank">OZAV</a> —
+        Feito por <a href="https://ozav.com.br" target="_blank">OZAV</a> —
         Cambio inteligente via stablecoins.
       </p>
     </div>
