@@ -275,4 +275,9 @@ app.all('/mcp', async (c) => {
   return response;
 });
 
+// Smithery sandbox export — allows capability scanning without real credentials
+export function createSandboxServer() {
+  return createMcpServer();
+}
+
 export default app;
