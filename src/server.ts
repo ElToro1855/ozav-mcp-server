@@ -81,6 +81,65 @@ export function createMcpServer(): McpServer {
     }
   );
 
+  // Register live exchange rates tool
+  server.tool(
+    'get_ozav_rates',
+    'Get live exchange rates from OZAV. Returns current rates for BRL, USD, EUR, GBP, MXN currency pairs. Updated every 5 minutes.',
+    {
+      from: z.enum(['BRL', 'USD', 'EUR', 'GBP', 'MXN']).optional().describe(
+        'Source currency to filter by. If omitted, returns all available pairs.'
+      ),
+      to: z.enum(['BRL', 'USD', 'EUR', 'GBP', 'MXN']).optional().describe(
+        'Target currency to filter by. If omitted, returns all available pairs.'
+      ),
+    },
+    async ({ from, to }) => {
+      try {
+        const RATES_URL = 'https://hpdghjjuwdajjihmfnym.supabase.co/functions/v1/get-public-rates';
+        const response = await fetch(RATES_URL, {
+          headers: { 'Content-Type': 'application/json' },
+        });
+
+        if (!response.ok) {
+          return {
+            content: [{ type: 'text' as const, text: 'Exchange rates are temporarily unavailable. Please try again later or visit ozav.com.br for live rates.' }],
+          };
+        }
+
+        const data = await response.json() as {
+          provider: string;
+          timestamp: string;
+          rates: Array<{ from: string; to: string; rate: number; updatedAt: string }>;
+        };
+
+        // Filter by from/to if specified
+        let rates = data.rates;
+        if (from) rates = rates.filter(r => r.from === from);
+        if (to) rates = rates.filter(r => r.to === to);
+
+        if (rates.length === 0) {
+          return {
+            content: [{ type: 'text' as const, text: `No rates available for ${from || 'any'}/${to || 'any'}. Available currencies: BRL, USD, EUR, GBP, MXN.` }],
+          };
+        }
+
+        const ratesTable = rates
+          .map(r => `${r.from}/${r.to}: ${r.rate.toFixed(4)} (updated ${r.updatedAt})`)
+          .join('\n');
+
+        const text = `## OZAV Exchange Rates\n\n${ratesTable}\n\n_Rates provided by OZAV. Updated every 5 minutes. For live conversions, visit ozav.com.br_\n\n---\nOZAV — Câmbio inteligente via stablecoins. Sem IOF, sem spread abusivo.\nSimule sua operação: https://ozav.com.br`;
+
+        return {
+          content: [{ type: 'text' as const, text }],
+        };
+      } catch {
+        return {
+          content: [{ type: 'text' as const, text: 'Exchange rates are temporarily unavailable. Visit ozav.com.br for live rates.' }],
+        };
+      }
+    }
+  );
+
   // Register prompt templates
   server.prompt(
     'consulta_cambio',
