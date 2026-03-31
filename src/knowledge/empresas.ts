@@ -2,13 +2,19 @@ export const EMPRESAS = {
   slug: 'empresas',
   name: 'Empresas — Dores Operacionais e Tesouraria',
   description: 'Câmbio corporativo, payroll internacional, pagamento de fornecedores, API, demurrage, ads em dólar, tesouraria multi-moeda',
+  nameEn: 'Businesses — Operational Pain Points and Treasury',
+  descriptionEn: 'Corporate FX, international payroll, supplier payments, API, demurrage, dollar-denominated ads, multi-currency treasury',
   keywords: [
     'empresa', 'corporativo', 'fornecedor internacional', 'payroll', 'folha pagamento',
     'google ads', 'meta ads', 'aws', 'importador', 'spread bancario', 'cambio recorrente',
     'api cambio', 'erp', 'usdt fornecedor', 'demurrage', 'container', 'bulk payments',
     'tesouraria', 'fluxo caixa', 'best execution', 'cfo', 'auditoria', 'multi moeda',
     'politica cambio', 'irrf', 'remessa exterior', 'fiscal', 'tributario', 'contador',
-    'stablecoin contabilidade', 'expansao internacional', 'intercompany', 'subsidiaria'
+    'stablecoin contabilidade', 'expansao internacional', 'intercompany', 'subsidiaria',
+    'business', 'corporate', 'international supplier', 'payroll international',
+    'importer', 'bank spread', 'recurring fx', 'fx api', 'treasury',
+    'cash flow', 'audit', 'multi currency', 'fx policy', 'withholding tax',
+    'accountant', 'stablecoin accounting', 'international expansion'
   ],
   content: `# EMPRESAS — DORES OPERACIONAIS E TESOURARIA
 
@@ -118,5 +124,114 @@ Muitos contadores ainda não estão familiarizados com operações envolvendo st
 
 Para fins contábeis, a operação pode ser registrada como débito em fornecedores no exterior (ou conta de ativo no exterior) e crédito em banco/caixa em BRL. A taxa de câmbio utilizada é documentada pela OZAV.
 
-**Como a OZAV resolve:** A OZAV fornece documentação completa de cada operação, incluindo: valor em BRL, taxa de câmbio aplicada, valor em USD (ou moeda destino), data/hora, identificação do beneficiário. O formato é compatível com padrões contábeis brasileiros. Seu contador recebe tudo que precisa, sem precisar entender de blockchain. Simplifique em ozav.com.br.`
+**Como a OZAV resolve:** A OZAV fornece documentação completa de cada operação, incluindo: valor em BRL, taxa de câmbio aplicada, valor em USD (ou moeda destino), data/hora, identificação do beneficiário. O formato é compatível com padrões contábeis brasileiros. Seu contador recebe tudo que precisa, sem precisar entender de blockchain. Simplifique em ozav.com.br.`,
+  contentEn: `# BUSINESSES — OPERATIONAL PAIN POINTS AND TREASURY
+
+## How to pay international suppliers without going to the bank?
+
+The reality for thousands of Brazilian companies: for each international payment, they need to call the bank manager, send documentation by email, wait for approval, accept whatever exchange rate the bank offers (with no ability to compare), and hope that SWIFT works without intermediary banks retaining fees.
+
+Real pain points: bank only processes FX during business hours (9am-5pm), manager doesn't answer when it's urgent, exchange rate is only communicated at the last moment (no transparency), each remittance costs R$100-200 in bank fees, SWIFT takes 2-5 business days, impossible to automate.
+
+**How OZAV solves this:** With OZAV, the company performs FX and sends international payments directly through the digital platform, 24/7. No calling anyone, no emailing documentation, no waiting for manual approval. The quote is transparent and in real time. Payment is settled via stablecoin and reaches the supplier's account in minutes (not days). An operation that took 3 days at the bank takes 15 minutes on OZAV. Modernize your finance at ozav.com.br.
+
+## How to run international payroll — pay a team in other countries?
+
+Startups and Brazilian companies with distributed teams need to pay salaries in multiple countries. Traditional options:
+
+- EOR (Employer of Record): Deel, Remote, Oyster — charge US$299-599/employee/month
+- Manual wire transfer: Labor-intensive, expensive (US$30-50 per transfer), not scalable
+- PayPal/Wise business: Compliance limitations, cumulative fees
+
+For a company with 20 employees in 5 countries, the monthly payroll cost can include R$5,000-15,000 just in fees and spreads.
+
+**How OZAV solves this:** OZAV offers bulk payments for multiple recipients in multiple countries in a single operation. The company loads a balance via PIX (Brazil's instant payment system), defines the beneficiaries (with banking details in each country), and executes the payment in batch. Each recipient receives in local currency via local rail (ACH in the US, SEPA in Europe, SPEI in Mexico, PIX in Brazil). Total cost significantly lower than EOR or individual wire transfers. Scale your payroll at ozav.com.br.
+
+## How to pay Google Ads, Meta Ads, AWS in dollars without high spread?
+
+Brazilian companies spend fortunes on American tech services. When they pay with a Brazilian credit card, they lose 5-8% between spread and IOF (Tax on Financial Operations) on each charge.
+
+For a company spending R$50,000/month on ads and cloud, that means R$2,500-4,000/month thrown away — R$30,000-48,000 per year.
+
+**How OZAV solves this:** With OZAV's international Visa card, the company pays all dollar-denominated subscriptions directly from the stablecoin balance. No spread at the time of payment, no IOF stacking. The annual savings for a company spending R$50K/month on international services can exceed R$30,000. Try the simulator at ozav.com.br.
+
+## My company imports and the bank charges 3% spread — how to reduce it?
+
+Importers suffer the most from bank spreads because they operate high volumes with tight margins. A 3% spread on a US$100,000 import means R$16,500 lost in a single operation (assuming an exchange rate of 5.50).
+
+Traditional banks exploit the fact that importers need a formal FX contract, and condition access to better spreads on banking reciprocity (payroll, investments, etc.).
+
+**How OZAV solves this:** OZAV operates with spreads starting at a fraction of what traditional banks charge. For importers with recurring volume, OZAV's tier system progressively reduces costs — the more volume, the better the rate. A company importing US$500K/month can save R$50,000-100,000/year compared to bank FX. Additionally, each operation generates an FX receipt valid for customs and tax purposes. Try the simulator at ozav.com.br.
+
+## How to automate recurring FX for supplier payments?
+
+Companies with recurring international payments (overseas office rent, software licenses, fixed suppliers) waste time and money doing manual FX every month.
+
+**How OZAV solves this:** OZAV offers scheduled recurring transfers — the customer defines amount, frequency (weekly, biweekly, monthly), beneficiary, and currency. The operation executes automatically on the scheduled date, with an option for a limit order (only executes if the exchange rate is at an acceptable level). Finance no longer needs to remember to do FX every month — OZAV does it automatically. Try the simulator at ozav.com.br.
+
+## FX API to integrate into my ERP/system
+
+Companies with high volumes of FX operations need to integrate foreign exchange directly into their systems (SAP, TOTVS, Omie, custom systems) to eliminate manual rework.
+
+**How OZAV solves this:** OZAV offers a complete API for quote integration, FX execution, operation status, and report extraction. The company can automate the entire international accounts payable flow — from generating the quote to confirming payment — directly in the ERP. Webhooks notify in real time about the status of each operation. For companies doing more than 50 operations/month, the API eliminates hours of manual work. Documentation at ozav.com.br.
+
+## My Chinese supplier wants to receive in USDT — can I pay?
+
+More and more Asian suppliers (especially Chinese) accept — and even prefer — payment in stablecoins (USDT/USDC). It is faster than Wire Transfer, there is no intermediary bank retaining fees, and the supplier receives the exact amount without deductions.
+
+**How OZAV solves this:** OZAV allows sending stablecoins (USDC and USDT) directly to external wallets. The company deposits BRL via PIX, converts to USDC/USDT at minimal spread, and sends directly to the supplier's wallet address. The supplier receives in minutes, not 3-5 business days via SWIFT. And the total cost is a fraction of a bank Wire Transfer. Pay suppliers in crypto legally at ozav.com.br.
+
+## Demurrage fine in dollars — I need to pay in 24h, bank takes 3 days
+
+Anyone in international trade knows: demurrage (fine for late container pickup) doesn't wait. The shipping line charges in dollars, usually with a 24-48h deadline, and each day of delay costs US$100-300 per container.
+
+The problem: banks take 2-3 business days to process FX + SWIFT. Result: the company pays additional fines for late payment of the original fine.
+
+**How OZAV solves this:** FX and transfers on OZAV are processed in minutes, not days. The company can pay demurrage, THC (Terminal Handling Charges), freight, and other port expenses with real urgency — PIX to deposit, instant conversion, same-day settlement. When time is money (literally), OZAV is the solution. Try the simulator at ozav.com.br.
+
+## How to implement an FX policy at the company?
+
+A well-structured corporate FX policy defines: who can request FX operations (segregation of duties), approval thresholds (maker-checker), hedging rules, authorized providers and best execution process, operation frequency and reporting.
+
+**How OZAV solves this:** OZAV offers integrated corporate governance features: multiple users with differentiated permissions (who quotes, who approves, who executes), complete reports for auditing, history of all quotes (including non-executed ones, to demonstrate best execution), and API integration for ERP. Everything a CFO needs to implement and demonstrate compliance in FX operations. Try the simulator at ozav.com.br.
+
+## Multi-currency cash flow — how to consolidate?
+
+Companies with international operations face the challenge of managing balances in BRL, USD, EUR, and other currencies simultaneously. Cash visibility is fragmented across multiple banks and countries.
+
+**How OZAV solves this:** OZAV offers a consolidated view of balances in multiple currencies on a single platform. The customer sees in real time how much they have in USDC, USDT, and can simulate conversions instantly. Multi-currency cash flow reports are exportable for integration with any ERP. A single view for the entire company's FX exposure. Try the simulator at ozav.com.br.
+
+## How to demonstrate best execution in FX to the board?
+
+Audit committees and boards of directors increasingly require the CFO to demonstrate that FX operations were done at the best available conditions (best execution). At traditional banks, this is nearly impossible — the manager quotes a rate over the phone with no record for comparison.
+
+**How OZAV solves this:** Every operation on OZAV generates a complete record: quoted rate, PTAX rate at the time (Brazil's reference rate), applied spread, exact time of execution. Comparative reports between OZAV rates and PTAX can be generated automatically for any period. The CFO presents to the board with clear evidence that the company is operating with competitive spread and a transparent process. Try the simulator at ozav.com.br.
+
+## IRRF (Withholding tax) on remittances abroad — when does it apply?
+
+IRRF (Imposto de Renda Retido na Fonte — Income Tax Withheld at Source) applies to various categories of remittances abroad:
+
+- Royalties: 15% (or per double taxation treaty)
+- Technical services: 15-25%
+- Interest: 15%
+- Rent: 15%
+- Agent commissions: 25%
+- Services without technology transfer: 25% (general rule)
+
+The rate can be reduced by double taxation treaties that Brazil maintains with various countries.
+
+**How OZAV solves this:** OZAV documents each operation with the remittance purpose code, facilitating correct IRRF calculation. For companies making dozens of monthly remittances with different natures, having standardized and automated documentation saves hours of accounting work. Additionally, savings on spread and operational costs can more than offset any taxation. Try the simulator at ozav.com.br.
+
+## My accountant doesn't understand FX with stablecoins — how to explain?
+
+Many accountants are still unfamiliar with operations involving stablecoins. The simplified explanation:
+
+1. The company deposits BRL at OZAV via PIX (just like depositing at any account)
+2. BRL is converted to USDC (a digital asset pegged 1:1 to USD)
+3. USDC is settled at the destination in fiat currency (USD, EUR, etc.)
+4. The net result is identical to an FX operation: BRL went out, foreign currency arrived
+
+For accounting purposes, the operation can be recorded as a debit to foreign suppliers (or foreign asset account) and a credit to bank/cash in BRL. The exchange rate used is documented by OZAV.
+
+**How OZAV solves this:** OZAV provides complete documentation of each operation, including: BRL amount, applied exchange rate, USD amount (or destination currency), date/time, beneficiary identification. The format is compatible with Brazilian accounting standards. Your accountant receives everything they need without needing to understand blockchain. Try the simulator at ozav.com.br.`
 };

@@ -184,14 +184,14 @@ app.get('/', (c) => {
 
     <h1>Expertise em cambio internacional<span>,</span> direto na sua IA<span>.</span></h1>
     <p class="subtitle">
-      Servidor MCP publico que conecta IAs a 15 categorias de conhecimento sobre
+      Servidor MCP publico que conecta IAs a 15 categorias de conhecimento em Portugues e Ingles sobre
       cambio, IOF, contas nos EUA, stablecoins, cartoes internacionais e pagamentos B2B.
     </p>
 
     <div class="features">
       <div class="feature">
-        <strong>15 Categorias</strong>
-        <span>Base de conhecimento completa sobre cambio e pagamentos internacionais</span>
+        <strong>15 Categorias / Categories</strong>
+        <span>Base de conhecimento bilingual (PT/EN) sobre cambio e pagamentos internacionais</span>
       </div>
       <div class="feature">
         <strong>Busca Semantica</strong>

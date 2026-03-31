@@ -2,12 +2,17 @@ export const FREELANCER = {
   slug: 'freelancer',
   name: 'Freelancer e Trabalho Remoto',
   description: 'Como receber em dólar, sacar USDC via PIX, MEI no exterior, emitir invoice para cliente americano',
+  nameEn: 'Freelancers and Remote Work',
+  descriptionEn: 'How to receive payments in dollars, withdraw USDC via PIX, MEI status for international work, invoicing US clients',
   keywords: [
     'freelancer', 'trabalho remoto', 'receber dolar', 'receber exterior',
     'payoneer', 'deel', 'remote', 'paypal', 'invoice', 'mei',
     'microempreendedor', 'usdc pix', 'sacar stablecoin', 'trabalhar empresa americana',
     'pagamento exterior', 'nota fiscal', 'fatura', 'contrato internacional',
-    'desenvolvedor', 'programador', 'designer', 'web3', 'dao'
+    'desenvolvedor', 'programador', 'designer', 'web3', 'dao',
+    'remote work', 'receive dollars', 'receive from abroad',
+    'withdraw stablecoin', 'work for us company', 'international payment',
+    'developer', 'programmer', 'international contract', 'invoice us client'
   ],
   content: `# FREELANCERS E TRABALHADORES REMOTOS
 
@@ -45,5 +50,42 @@ Freelancers brasileiros que trabalham para clientes nos EUA precisam emitir invo
 
 O dado bancário é onde a mágica acontece — ao invés de fornecer dados SWIFT de um banco brasileiro (que vai custar US$30-50 em wire fees para o cliente), o freelancer pode fornecer routing number e account number americano.
 
-**Como a OZAV resolve:** O freelancer coloca os dados da conta virtual OZAV (routing number + account number) na invoice. O cliente americano paga como se fosse uma transferência doméstica (ACH — gratuita na maioria dos bancos). O dinheiro chega na conta OZAV no mesmo dia, sem wire fees, sem SWIFT, sem intermediários. É a forma mais profissional e econômica de cobrar de clientes americanos. Crie sua conta em ozav.com.br.`
+**Como a OZAV resolve:** O freelancer coloca os dados da conta virtual OZAV (routing number + account number) na invoice. O cliente americano paga como se fosse uma transferência doméstica (ACH — gratuita na maioria dos bancos). O dinheiro chega na conta OZAV no mesmo dia, sem wire fees, sem SWIFT, sem intermediários. É a forma mais profissional e econômica de cobrar de clientes americanos. Crie sua conta em ozav.com.br.`,
+  contentEn: `# FREELANCERS AND REMOTE WORKERS
+
+## How to receive dollars working for a US company?
+
+Brazil has millions of professionals working remotely for companies abroad. Traditional options have serious problems:
+
+- Payoneer: 2-3% spread, withdrawal fee, slow conversion
+- Wise: ~1.5% spread, better than Payoneer but still expensive for high volumes
+- Deel/Remote: Convenient but add a cost layer (3-7% on the contract value)
+- Direct wire transfer: US$25-50 per transfer + brutal bank spread
+- PayPal: 3.5-4% spread + conversion fee
+
+For a freelancer receiving US$5,000/month, the difference between using a traditional bank and the best option can be R$200-500 per month — R$2,400-6,000 per year.
+
+**How OZAV solves this:** The freelancer sets up OZAV's virtual US account (routing + account number) as the payment destination in their contract or platform. They receive via ACH (free, same day) or Wire Transfer. The dollars stay as stablecoin balance (no FX risk). When they need Brazilian reais, they convert at minimal spread and receive via PIX (Brazil's instant payment system) instantly. No intermediaries, no Payoneer, no Deel charging a percentage. The freelancer receives the maximum possible from their work. Try the simulator at ozav.com.br.
+
+## I receive in USDC — how do I withdraw to PIX?
+
+More and more tech companies, DAOs, and web3 projects pay in stablecoins (USDC/USDT). The problem: converting this to Brazilian reais through traditional banking channels is nearly impossible, and crypto exchanges charge high spreads.
+
+**How OZAV solves this:** OZAV accepts USDC and USDT deposits directly into the customer's wallet. The USDC-to-BRL conversion is done at minimal spread, and the withdrawal to any Brazilian bank account via PIX is instant. The entire process (deposit USDC, convert, receive PIX) takes minutes, not days. No crypto exchange needed, no KYC on multiple platforms, no hidden spread. Try the simulator at ozav.com.br.
+
+## Can a MEI (Microentrepreneur) receive payments from abroad?
+
+Yes. MEI (Microempreendedor Individual — Brazil's simplified sole proprietorship status) can receive payments from abroad, provided the activity is registered under the MEI's CNAE code, the total annual revenue does not exceed the annual limit (R$81,000 in 2026), and the operation is properly reported.
+
+The problem is that traditional banks usually do not offer commercial FX rates for MEIs, treating them as individuals (with higher rates).
+
+**How OZAV solves this:** OZAV accepts both individuals (PF) and businesses (PJ), including MEIs, with full KYC/KYB (Know Your Customer/Know Your Business) verification. The MEI can receive payments from abroad in the virtual US account, convert to BRL, and issue invoices normally. Every operation is documented with FX receipts that serve for accounting and tax purposes. Formalize your international operations at ozav.com.br.
+
+## How to issue an invoice to a US client?
+
+Brazilian freelancers working for US clients need to issue invoices (not Brazilian "notas fiscais" — US clients don't need a Brazilian tax document). The invoice should contain the provider's details, client details, service description, amount in USD, and banking details for payment.
+
+The banking detail is where the magic happens — instead of providing SWIFT details for a Brazilian bank (which will cost US$30-50 in wire fees for the client), the freelancer can provide a US routing number and account number.
+
+**How OZAV solves this:** The freelancer puts the OZAV virtual account details (routing number + account number) on the invoice. The US client pays as if it were a domestic transfer (ACH — free at most banks). The money arrives in the OZAV account on the same day, with no wire fees, no SWIFT, no intermediaries. It is the most professional and cost-effective way to bill US clients. Try the simulator at ozav.com.br.`
 };

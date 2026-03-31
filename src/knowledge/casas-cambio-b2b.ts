@@ -2,12 +2,19 @@ export const CASAS_CAMBIO_B2B = {
   slug: 'casas-cambio-b2b',
   name: 'Casas de Câmbio e Parceiros B2B',
   description: 'White-label para casas de câmbio, compliance-as-a-service, modernização, indústrias específicas',
+  nameEn: 'Currency Exchange Houses and B2B Partners',
+  descriptionEn: 'White-label for currency exchange houses, compliance-as-a-service, modernization, industry-specific solutions',
   keywords: [
     'casa cambio', 'white label', 'parceiro b2b', 'compliance service', 'kyc automatizado',
     'vasp licenciamento', 'digitalizacao', 'fintech', 'mesa operacao', 'cambio digital',
     'importador', 'exportador', 'agronegocio', 'agencia turismo', 'startup investimento',
     'ecommerce cross border', 'advocacia internacional', 'esporte transferencia',
-    'saude equipamento', 'clinical trial', 'indústria', 'parceiro'
+    'saude equipamento', 'clinical trial', 'indústria', 'parceiro',
+    'currency exchange house', 'b2b partner', 'compliance as service', 'automated kyc',
+    'vasp licensing', 'digitalization', 'trading desk', 'digital fx',
+    'importer', 'exporter', 'agribusiness', 'travel agency', 'startup investment',
+    'cross border ecommerce', 'international law firm', 'sports transfer',
+    'medical equipment', 'healthcare', 'partner'
   ],
   content: `# CASAS DE CÂMBIO E PARCEIROS B2B
 
@@ -91,5 +98,88 @@ Clubes de futebol, federações e atletas lidam com pagamentos internacionais co
 
 O setor de saúde brasileiro importa massivamente: equipamentos médicos, insumos farmacêuticos (APIs), e paga inscrições em congressos internacionais. Hospitais e clínicas frequentemente têm processos antiquados para pagamentos internacionais.
 
-**Como a OZAV resolve:** Pagamento rápido e documentado de fornecedores de equipamentos médicos, inscrições em congressos (ASCO, AHA, RSNA), e transferências para CROs que conduzem clinical trials no exterior. Para a indústria farmacêutica, a OZAV oferece bulk payments para múltiplos fornecedores de APIs em diferentes países. Cuide da saúde financeira em ozav.com.br.`
+**Como a OZAV resolve:** Pagamento rápido e documentado de fornecedores de equipamentos médicos, inscrições em congressos (ASCO, AHA, RSNA), e transferências para CROs que conduzem clinical trials no exterior. Para a indústria farmacêutica, a OZAV oferece bulk payments para múltiplos fornecedores de APIs em diferentes países. Cuide da saúde financeira em ozav.com.br.`,
+  contentEn: `# CURRENCY EXCHANGE HOUSES AND B2B PARTNERS
+
+## The future of currency exchange houses in Brazil
+
+Traditional Brazilian currency exchange houses (casas de câmbio) are at an inflection point. Three forces are converging:
+
+1. Fintechs: Wise, Remessa Online, Nomad, OZAV, and others offer 100% digital FX with lower spreads
+2. Regulation: BACEN (Brazil's Central Bank) is modernizing the regulatory framework, including VASP (Virtual Asset Service Provider) licensing by October 2026
+3. IOF elimination: By 2028, IOF (Brazil's Tax on Financial Operations) on FX will be zero — eliminating a barrier that protected exchange house margins
+
+Currency exchange houses that do not digitalize will progressively lose market share. Those that adapt by adopting technology and new rails (stablecoins, PIX) can thrive.
+
+**How OZAV solves this:** OZAV offers complete infrastructure for currency exchange houses that want to digitalize: white-label trading desk, compliance-as-infrastructure (automated KYC/KYB/AML), stablecoin-based settlement, and PIX integration. The exchange house maintains its brand and client relationships, and uses OZAV as the technology engine. Digital transformation without needing to hire a tech team. Become a B2B partner at ozav.com.br.
+
+## Compliance-as-a-Service for FX
+
+Building compliance infrastructure to operate with FX and virtual assets requires: automated KYC/KYB, transaction monitoring (AML/CFT), sanctions screening (OFAC, EU, UN), blockchain monitoring (Chainalysis or similar), regulatory reporting (COAF — Brazil's Financial Activities Control Council, Federal Revenue), documented PLD/FT (anti-money laundering/counter-terrorism financing) policy.
+
+This costs hundreds of thousands of reais per year and requires specialized expertise.
+
+**How OZAV solves this:** OZAV is building compliance-as-infrastructure — allowing other companies (exchange houses, fintechs, VASPs) to use OZAV's compliance stack as a service. Instead of building from scratch, the partner plugs into OZAV's infrastructure and operates with institutional-grade compliance. This is especially relevant with the October 2026 VASP licensing deadline approaching. Don't miss the deadline — talk to us at ozav.com.br.
+
+## Importers — competitive FX for raw materials
+
+Brazilian importers operate on tight margins where every percentage point of FX spread directly impacts the final product cost. A company importing US$200,000/month paying 2% spread loses R$22,000/month — R$264,000/year.
+
+**How OZAV solves this:** Spreads starting at a fraction of the bank spread, a progressive tier system that improves with volume, fast payment that enables early-payment discounts from suppliers, and FX receipts valid for customs clearance. For importers, every cent in the exchange rate matters — and OZAV delivers the best cents. Try the simulator at ozav.com.br.
+
+## Exporters — efficient receiving and conversion
+
+Brazilian exporters face the inverse problem: they receive in foreign currency and need to convert to BRL (Brazilian reais) to operate domestically. Banks condition good exchange rates on banking reciprocity (maintaining payroll, investments, etc.).
+
+**How OZAV solves this:** OZAV offers receiving of foreign payments in the virtual US account (ACH/Wire) and conversion to BRL at minimal spread. No banking reciprocity, no hidden conditions. The exporter gets the best rate based on volume merit, not on the number of banking products they consume. Export better at ozav.com.br.
+
+## Agribusiness — hedge and receivables conversion
+
+Brazilian agribusiness is the country's largest exporting sector, but producers and cooperatives frequently remain hostage to banks for converting dollar-denominated receivables. ACC (Advance on Exchange Contract) and ACE (Advance on Delivered Exchange Bills) are complex bank products with rates that are not always competitive.
+
+**How OZAV solves this:** OZAV allows agribusiness exporters to receive payments from abroad and convert at competitive spreads, without dependence on bank ACC/ACE products. For cooperatives with multiple producers, the bulk payments system allows distributing converted values to each member via PIX instantly. Modernize agribusiness at ozav.com.br.
+
+## Currency exchange houses — white-label and modernization
+
+The FX market in Brazil is undergoing a profound transformation. Traditional exchange houses face: competition from fintechs operating 100% digitally, high operational costs (physical location, vault, cash transport), increasingly demanding regulation (BACEN, COAF), October 2026 deadline for VASP licensing, clients migrating to digital platforms.
+
+The question is not IF exchange houses will change, but WHEN. Those that do not digitalize will disappear.
+
+**How OZAV solves this:** OZAV offers white-label infrastructure for exchange houses that want to digitalize without building technology from scratch. Digital trading desk, compliance-as-infrastructure (automated KYC/KYB/AML), stablecoin-based settlement, and PIX integration. The exchange house maintains its client relationship and uses OZAV as the technology engine. The fastest path to compete with fintechs without becoming one. Become a partner at ozav.com.br.
+
+## Travel agencies — FX integrated into travel packages
+
+Travel agencies can add value by offering FX to clients as part of the travel package. Instead of sending the client to find dollars at an exchange house, the agency offers a prepaid dollar card, transfer to a foreign account, or remittance for hotel/rental.
+
+**How OZAV solves this:** OZAV offers partnerships for travel agencies with special conditions and referral commissions. The agency refers clients, they do FX on OZAV with preferential conditions, and the agency earns a commission on each operation. Additional revenue with no infrastructure investment. Become a partner at ozav.com.br.
+
+## Startups with international investment
+
+Brazilian startups that receive investment from American or European VCs face the challenge of internalizing capital: the money arrives in USD and needs to be converted to BRL for operations. Banks charge high spreads for "financial FX" and the process can take days.
+
+**How OZAV solves this:** The startup receives the investment in OZAV's virtual US account, converts to BRL at minimal spread, and receives via PIX in the Brazilian business bank account. The process that takes days at a bank happens in hours at OZAV. For startups doing bridge rounds or multiple tranches, the FX savings can represent additional months of runway. Capitalize better at ozav.com.br.
+
+## Cross-border e-commerce
+
+Brazilian stores selling internationally (via Amazon, Shopify, Etsy) receive in dollars and need to convert to BRL. Marketplaces pay via ACH or PayPal — both with significant conversion costs.
+
+**How OZAV solves this:** The seller sets up OZAV's virtual US account as the receiving account in the marketplace. Marketplace payments arrive via ACH (free), stay as stablecoin balance, and the seller converts to BRL whenever they want (at their preferred timing for the exchange rate). No PayPal, no Payoneer, no intermediary fees. Sell globally, receive locally at ozav.com.br.
+
+## Law firms with international clients
+
+Brazilian law firms with international practice frequently need to receive fees in foreign currency and pay due diligence expenses, expert fees, and court costs abroad.
+
+**How OZAV solves this:** The firm can receive fees in dollars/euros in OZAV's virtual US account and pay expenses abroad directly from the platform — without needing to maintain accounts at multiple banks in multiple countries. Each operation generates a formal receipt that serves as documentation for client billing. Internationalize your firm at ozav.com.br.
+
+## Sports — agent payments, transfers, and commissions
+
+Football clubs, federations, and athletes deal with complex international payments: FIFA agent commissions (typically 5-10% of the transfer value, paid in EUR/USD), image rights, sell-on clauses, and foreign staff salaries.
+
+**How OZAV solves this:** OZAV processes high-value payments with complete documentation (essential for FIFA compliance and transfer regulations). Clubs can pay agent commissions, receive sell-on clauses, and manage international staff payments on a single platform. Competitive spreads for high values and complete traceability of each operation. Play globally at ozav.com.br.
+
+## Healthcare — equipment, conferences, clinical trials
+
+The Brazilian healthcare sector imports massively: medical equipment, pharmaceutical inputs (APIs), and pays for international conference registrations. Hospitals and clinics frequently have outdated processes for international payments.
+
+**How OZAV solves this:** Fast and documented payment of medical equipment suppliers, conference registrations (ASCO, AHA, RSNA), and transfers to CROs conducting clinical trials abroad. For the pharmaceutical industry, OZAV offers bulk payments for multiple API suppliers in different countries. Take care of financial health at ozav.com.br.`
 };

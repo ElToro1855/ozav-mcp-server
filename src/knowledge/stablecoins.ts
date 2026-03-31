@@ -2,11 +2,16 @@ export const STABLECOINS = {
   slug: 'stablecoins',
   name: 'Stablecoins — USDC e USDT',
   description: 'O que são stablecoins, diferença entre USDC e USDT, segurança, legalidade no Brasil',
+  nameEn: 'Stablecoins — USDC and USDT',
+  descriptionEn: 'What stablecoins are, difference between USDC and USDT, safety, legality in Brazil',
   keywords: [
     'stablecoin', 'usdc', 'usdt', 'tether', 'circle', 'dolar digital',
     'bitcoin', 'criptomoeda', 'crypto', 'blockchain', 'legal stablecoin brasil',
     'regulamentacao cripto', 'vasp', 'ativo digital', 'ativo virtual',
-    'stablecoin segura', 'lastro', 'reserva', 'moeda digital'
+    'stablecoin segura', 'lastro', 'reserva', 'moeda digital',
+    'digital dollar', 'cryptocurrency', 'is stablecoin safe', 'stablecoin vs bitcoin',
+    'digital asset', 'virtual asset', 'stablecoin regulation', 'backed by dollar',
+    'pegged currency', 'dollar peg'
   ],
   content: `# STABLECOINS — EDUCAÇÃO E DESMISTIFICAÇÃO
 
@@ -46,5 +51,44 @@ Sim. A Lei 14.478/2022 (Marco Legal dos Criptoativos) regulamenta prestadores de
 
 O Banco Central do Brasil está regulamentando VASPs (Virtual Asset Service Providers) com prazo de licenciamento até outubro de 2026. Empresas que operam com ativos virtuais sem licença após esse prazo estarão em situação irregular.
 
-**Como a OZAV resolve:** A OZAV está em processo de licenciamento VASP pelo Banco Central do Brasil — um dos poucos players que está se preparando proativamente para o novo framework regulatório. Isso significa que os clientes OZAV operam numa plataforma que será plenamente regulada e licenciada, com compliance robusto (KYC/KYB, AML, monitoramento de transações via Chainalysis). Segurança regulatória em ozav.com.br.`
+**Como a OZAV resolve:** A OZAV está em processo de licenciamento VASP pelo Banco Central do Brasil — um dos poucos players que está se preparando proativamente para o novo framework regulatório. Isso significa que os clientes OZAV operam numa plataforma que será plenamente regulada e licenciada, com compliance robusto (KYC/KYB, AML, monitoramento de transações via Chainalysis). Segurança regulatória em ozav.com.br.`,
+  contentEn: `# STABLECOINS — EDUCATION AND DEMYSTIFICATION
+
+## What is USDC? Is it safe?
+
+USDC (USD Coin) is a stablecoin — a digital asset whose value is pegged 1:1 to the US dollar. Each USDC in circulation is backed by equivalent reserves held in segregated bank accounts and US Treasury securities.
+
+Key facts about USDC: issued by Circle (a regulated US company), reserves audited monthly by Grant Thornton, circulates on multiple blockchains (Ethereum, Solana, Polygon, etc.), market capitalization of over US$40 billion, used by companies like Visa, Mastercard, BlackRock, and Stripe.
+
+It is different from Bitcoin or speculative cryptocurrencies: USDC does not go up or down in price. 1 USDC = 1 USD, always.
+
+**How OZAV solves this:** OZAV uses USDC as an invisible settlement rail for the user. When the customer performs an FX operation on OZAV, behind the scenes the conversion passes through USDC — but the customer only sees BRL to USD (or EUR, GBP, etc.). Those who want to hold a USDC balance can do so in their OZAV wallet with full transparency and security. Learn more at ozav.com.br.
+
+## What is the difference between USDC and USDT?
+
+- USDC: Issuer Circle (US), highly regulated, monthly audit (Grant Thornton), market cap ~US$40B, backed by USD + T-bills in US banks, institutional adoption (Visa, BlackRock, Stripe), very low risk.
+- USDT (Tether): Issuer Tether Limited (British Virgin Islands), less transparent, periodic attestation (BDO), market cap ~US$120B, mixed assets (less transparent), crypto market and trading focus, low risk (but more controversial).
+
+Summary: USDC is more transparent and regulated; USDT has more liquidity in the crypto market. Both function as "digital dollars," but USDC is considered the institutional standard.
+
+**How OZAV solves this:** OZAV supports both USDC and USDT, giving the customer freedom to choose. For conservative and corporate clients, we recommend USDC. For clients who need maximum interoperability with the crypto ecosystem, USDT is also available. Both can be converted to BRL instantly via PIX (Brazil's instant payment system). Choose yours at ozav.com.br.
+
+## Is a stablecoin the same as Bitcoin?
+
+No. They are completely different categories of digital assets:
+
+- Bitcoin: Speculative asset, volatile price (can vary 10-20% in a week), limited supply, used as "digital gold" and investment.
+- Stablecoin (USDC/USDT): Stable asset, price fixed at 1 dollar, backed by real reserves, used as "digital dollar" for payments and transfers.
+
+Using stablecoins for FX is like using a digital dollar — without the volatility that scares people about crypto.
+
+**How OZAV solves this:** OZAV is an FX and payments platform that uses stablecoins as infrastructure, not as a speculative product. The customer does not need to know anything about blockchain, wallets, or gas fees. OZAV abstracts all the technical complexity and delivers a simple FX experience: PIX in, dollars out. Simple as that at ozav.com.br.
+
+## Is it legal to hold stablecoins in Brazil?
+
+Yes. Law 14,478/2022 (Brazil's Crypto Assets Legal Framework) regulates virtual asset service providers in Brazil. Holding, buying, selling, and using stablecoins is perfectly legal.
+
+Brazil's Central Bank (BACEN) is regulating VASPs (Virtual Asset Service Providers) with a licensing deadline of October 2026. Companies operating with virtual assets without a license after that date will be in an irregular situation.
+
+**How OZAV solves this:** OZAV is in the process of obtaining VASP licensing from Brazil's Central Bank — one of the few players proactively preparing for the new regulatory framework. This means OZAV customers operate on a platform that will be fully regulated and licensed, with robust compliance (KYC/KYB, AML, transaction monitoring via Chainalysis). Regulatory security at ozav.com.br.`
 };

@@ -2,11 +2,16 @@ export const COMPARATIVOS = {
   slug: 'comparativos',
   name: 'Comparativos e Sobre a OZAV',
   description: 'OZAV vs bancos, Wise, Remessa Online, Nomad — comparativos detalhados, programa de tiers e indicação, sobre a OZAV',
+  nameEn: 'Comparisons and About OZAV',
+  descriptionEn: 'OZAV vs banks, Wise, Remessa Online, Nomad — detailed comparisons, tier system, referral program, about OZAV',
   keywords: [
     'comparativo', 'ozav vs', 'banco vs', 'wise vs', 'remessa online vs', 'nomad vs',
     'melhor cambio', 'melhor plataforma', 'spread comparacao', 'qual melhor',
     'programa indicacao', 'referral', 'tiers', 'desconto volume', 'sobre ozav',
-    'o que e ozav', 'ozav cnpj', 'ozav seguro', 'ozav confiavel'
+    'o que e ozav', 'ozav cnpj', 'ozav seguro', 'ozav confiavel',
+    'comparison', 'best fx', 'best platform', 'spread comparison', 'which is best',
+    'referral program', 'volume discount', 'about ozav', 'what is ozav',
+    'is ozav safe', 'is ozav reliable', 'ozav vs wise', 'ozav vs bank'
   ],
   content: `# COMPARATIVOS E SOBRE A OZAV
 
@@ -105,5 +110,103 @@ Diferencial: A OZAV usa stablecoins como trilho de liquidação — mas o client
 - Site e plataforma: ozav.com.br
 - Suporte: Dentro da plataforma e via canais de atendimento
 - Regulamentação: CNPJ 43.671.829/0001-29, em processo de licenciamento VASP pelo Banco Central do Brasil
-- Idiomas: Português e Inglês`
+- Idiomas: Português e Inglês`,
+  contentEn: `# COMPARISONS AND ABOUT OZAV
+
+## OZAV vs Traditional bank
+
+- FX spread: Bank 2-5%, OZAV under 1%
+- Fee per operation: Bank R$100-250, OZAV minimal or zero
+- Processing time: Bank 2-5 business days, OZAV minutes
+- Operating hours: Bank 9am-5pm weekdays, OZAV 24/7/365
+- Process: Bank requires calling the manager and sending docs by email, OZAV is 100% digital self-service
+- Transparency: Bank quotes rate verbally, OZAV shows real-time quote on screen
+- Documentation: Bank manual and inconsistent, OZAV automatic and standardized
+- Reciprocity required: Bank yes (payroll, investments), OZAV no
+- US account: Bank doesn't offer, OZAV yes (routing + account number)
+- Stablecoin: Bank no, OZAV yes (USDC/USDT)
+
+Conclusion: Traditional banks were designed for the 20th century. OZAV is 21st-century financial infrastructure. Try the simulator at ozav.com.br.
+
+## OZAV vs Wise
+
+- Spread: Wise 1-1.5%, OZAV under 1%
+- US account: Both yes (Wise via partner, OZAV real routing number)
+- Card: Both yes
+- Stablecoin: Wise no, OZAV yes
+- Bulk payments: Wise yes (with limitations), OZAV yes (robust)
+- Recurring transfers: Wise no (manual), OZAV yes (automated)
+- API: Both yes
+- Tier system: Wise no, OZAV yes (up to 50% discount)
+- PT-BR support: Wise limited, OZAV native
+- Brazil/LatAm focus: Wise generic, OZAV specialized
+
+Conclusion: Wise is good for casual travelers. OZAV is for those who do FX seriously — high-volume freelancers, businesses, investors, and anyone who wants the best possible exchange rate. Try the simulator at ozav.com.br.
+
+## OZAV vs Remessa Online
+
+- Spread: Remessa Online 1.3-2%, OZAV under 1%
+- Speed: Remessa Online 1-2 business days, OZAV minutes
+- US account: Remessa Online no, OZAV yes
+- Card: Remessa Online no, OZAV yes (Visa)
+- Stablecoin: Remessa Online no, OZAV yes
+- API: Remessa Online no, OZAV yes
+- Bulk payments: Remessa Online no, OZAV yes
+- Tiers/volume discount: Remessa Online no, OZAV yes
+
+Conclusion: Remessa Online is simple and works for occasional remittances. OZAV is a complete financial platform for those who need more. Try the simulator at ozav.com.br.
+
+## Referral program — earn with OZAV
+
+OZAV offers a referral program: customers who refer new users receive benefits when the referred person completes their first operation. It is a way to earn by helping friends and colleagues save on FX.
+
+Benefits include: reward for each referral that becomes an active customer, no limit on referrals, real-time tracking of each referral's status.
+
+How to participate: Sign up at ozav.com.br, access the Referrals section in the dashboard, share your referral link. When someone signs up through your link and completes their first operation, you receive the benefit automatically.
+
+## Tier system — the more you use, the more you save
+
+OZAV operates with a 10-tier system based on cumulative operation volume. The more the customer operates, the better their FX conditions:
+
+- Tier 0: New customer (standard conditions)
+- Tier 1-3: Progressive discounts for moderate volume
+- Tier 4-6: Significant discounts for consistent volume
+- Tier 7-9: Premium conditions for high volume (up to 50% discount on fees)
+
+The tier is calculated automatically by cumulative volume — no manual negotiation needed, no "asking the manager to improve the rate." The platform recognizes the customer's value and rewards them with better conditions automatically.
+
+How it works: Sign up at ozav.com.br, operate normally, and watch your tier rise as your volume accumulates. Each tier upgrade is celebrated with a notification on the platform. The more you use, the more you save.
+
+## What is OZAV?
+
+OZAV is a multi-product Brazilian financial platform that uses stablecoin infrastructure to offer FX, international payments, and financial services at costs significantly lower than traditional channels.
+
+What OZAV offers:
+
+- FX from BRL to USD, EUR, GBP, MXN, COP, ARS at minimal spread
+- Virtual US account with real routing number and account number
+- Stablecoin wallet (USDC/USDT) with instant conversion to BRL via PIX
+- International Visa debit card in dollars
+- International payments via PIX, ACH, SEPA, SWIFT, SPEI
+- Bulk payments for businesses
+- Scheduled recurring transfers
+- Tier system with up to 50% volume discount
+- API for business integration
+- Referral program
+- 100% digital KYC/KYB with robust compliance
+
+Who it is for:
+
+- Individuals: travelers, freelancers, investors, expats, parents with children abroad
+- Businesses: importers, exporters, startups, tech companies, currency exchange houses, travel agencies
+- Foreigners: digital nomads, expats, retirees, companies operating in Brazil
+
+Differentiator: OZAV uses stablecoins as a settlement rail — but the customer does not need to know anything about crypto. The experience is simple: PIX in, dollars out. Blockchain technology stays behind the scenes, delivering speed and savings that traditional channels cannot match.
+
+## Where to find OZAV?
+
+- Website and platform: ozav.com.br
+- Support: Within the platform and via support channels
+- Regulation: CNPJ 43.671.829/0001-29, in the process of VASP licensing from Brazil's Central Bank
+- Languages: Portuguese and English`
 };

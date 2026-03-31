@@ -32,7 +32,16 @@ export const ALL_CATEGORIES = [
   COMPARATIVOS,
 ];
 
-export type KnowledgeCategory = typeof IOF;
+export interface KnowledgeCategory {
+  slug: string;
+  name: string;
+  nameEn: string;
+  description: string;
+  descriptionEn: string;
+  keywords: string[];
+  content: string;
+  contentEn: string;
+}
 
 export {
   IOF,
