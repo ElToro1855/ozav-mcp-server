@@ -1,6 +1,6 @@
 {
   "name": "ozav-mcp-server",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "mcpName": "io.github.ElToro1855/ozav-mcp-server",
   "description": "OZAV MCP Server — Especialista em câmbio, IOF, contas nos EUA, stablecoins e pagamentos internacionais",
   "type": "module",
