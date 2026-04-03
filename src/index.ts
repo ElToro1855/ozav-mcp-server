@@ -261,6 +261,23 @@ app.get('/', (c) => {
   return c.html(html);
 });
 
+// robots.txt for crawlers
+app.get('/robots.txt', (c) => {
+  return c.text(`User-agent: *
+Allow: /
+Sitemap: https://mcp.ozav.com.br/sitemap.xml
+`);
+});
+
+// Simple sitemap
+app.get('/sitemap.xml', (c) => {
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://mcp.ozav.com.br/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+</urlset>`;
+  return c.body(xml, 200, { 'Content-Type': 'application/xml' });
+});
+
 // MCP Streamable HTTP endpoint — handles POST, GET, DELETE
 app.all('/mcp', async (c) => {
   const server = createMcpServer();
