@@ -14,14 +14,14 @@
       "version": "1.0.0",
       "transport": {
         "type": "streamable-http",
-        "url": "https://ozav-mcp-server.vercel.app/mcp"
+        "url": "https://mcp.ozav.com.br/mcp"
       },
       "environmentVariables": []
     }
   ],
   "remoteEndpoints": [
     {
-      "url": "https://ozav-mcp-server.vercel.app/mcp",
+      "url": "https://mcp.ozav.com.br/mcp",
       "transport": "streamable-http"
     }
   ]

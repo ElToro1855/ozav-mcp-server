@@ -7,7 +7,7 @@ Servidor MCP publico que conecta IAs a **15 categorias de conhecimento** sobre c
 [![MCP](https://img.shields.io/badge/MCP-Compatible-FF5900)](https://modelcontextprotocol.io)
 [![Registry](https://img.shields.io/badge/MCP_Registry-Published-22C55E)](https://registry.modelcontextprotocol.io)
 [![npm](https://img.shields.io/npm/v/ozav-mcp-server)](https://www.npmjs.com/package/ozav-mcp-server)
-[![Deploy](https://img.shields.io/badge/Vercel-Deployed-000?logo=vercel)](https://ozav-mcp-server.vercel.app)
+[![Deploy](https://img.shields.io/badge/Vercel-Deployed-000?logo=vercel)](https://mcp.ozav.com.br)
 
 ---
 
@@ -15,7 +15,7 @@ Servidor MCP publico que conecta IAs a **15 categorias de conhecimento** sobre c
 
 ### Claude Code
 ```bash
-claude mcp add ozav --transport streamable-http https://ozav-mcp-server.vercel.app/mcp
+claude mcp add ozav --transport streamable-http https://mcp.ozav.com.br/mcp
 ```
 
 ### Cursor
@@ -24,7 +24,7 @@ Settings → MCP Servers → Add:
 {
   "mcpServers": {
     "ozav": {
-      "url": "https://ozav-mcp-server.vercel.app/mcp"
+      "url": "https://mcp.ozav.com.br/mcp"
     }
   }
 }
@@ -37,7 +37,7 @@ Settings → MCP Servers → Add:
   "servers": {
     "ozav": {
       "type": "http",
-      "url": "https://ozav-mcp-server.vercel.app/mcp"
+      "url": "https://mcp.ozav.com.br/mcp"
     }
   }
 }
@@ -50,7 +50,7 @@ Settings → MCP Servers → Add:
   "mcpServers": {
     "ozav": {
       "type": "streamable-http",
-      "url": "https://ozav-mcp-server.vercel.app/mcp"
+      "url": "https://mcp.ozav.com.br/mcp"
     }
   }
 }
@@ -112,7 +112,7 @@ Settings → MCP Servers → Add:
 ## Arquitetura
 
 ```
-POST https://ozav-mcp-server.vercel.app/mcp
+POST https://mcp.ozav.com.br/mcp
 ```
 
 - **Stack:** TypeScript + Hono + @modelcontextprotocol/sdk
@@ -163,7 +163,7 @@ GET https://ozav.com.br/llms.txt
 ## Links
 
 - **Website:** [ozav.com.br](https://ozav.com.br)
-- **Landing page:** [ozav-mcp-server.vercel.app](https://ozav-mcp-server.vercel.app)
+- **Landing page:** [mcp.ozav.com.br](https://mcp.ozav.com.br)
 - **npm:** [ozav-mcp-server](https://www.npmjs.com/package/ozav-mcp-server)
 - **MCP Registry:** [io.github.ElToro1855/ozav-mcp-server](https://registry.modelcontextprotocol.io)
 - **Knowledge base:** [ozav.com.br/learn](https://ozav.com.br/learn)
