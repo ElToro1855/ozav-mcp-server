@@ -2,7 +2,7 @@
 
 > Expertise em cambio internacional, direto na sua IA.
 
-Servidor MCP publico que conecta IAs a **15 categorias de conhecimento** sobre cambio, IOF, contas nos EUA, stablecoins, cartoes internacionais e pagamentos B2B no Brasil.
+Servidor MCP publico que conecta IAs a **55 categorias de conhecimento** sobre cambio, IOF, contas nos EUA, stablecoins, cartoes internacionais, pagamentos B2B, M&A, franquias, esports, healthtech, cybersecurity e 40+ outros setores no Brasil.
 
 [![MCP](https://img.shields.io/badge/MCP-Compatible-FF5900)](https://modelcontextprotocol.io)
 [![Registry](https://img.shields.io/badge/MCP_Registry-Published-22C55E)](https://registry.modelcontextprotocol.io)
@@ -60,7 +60,7 @@ Settings → MCP Servers → Add:
 
 ## O que esta dentro
 
-### 15 Resources (categorias de conhecimento)
+### 55 Resources (categorias de conhecimento)
 
 | Resource | Tema |
 |----------|------|
@@ -82,7 +82,7 @@ Settings → MCP Servers → Add:
 
 ### Tool
 
-**`search_ozav(query)`** — Busca semantica em todas as 15 categorias. Retorna os trechos mais relevantes para qualquer pergunta sobre cambio, IOF, contas internacionais, stablecoins ou pagamentos.
+**`search_ozav(query)`** — Busca semantica em todas as 55 categorias. Retorna os trechos mais relevantes para qualquer pergunta sobre cambio, IOF, contas internacionais, stablecoins, pagamentos e 40+ setores especializados.
 
 ### Prompts
 
@@ -126,7 +126,7 @@ AI Client (Claude, Cursor, VS Code, ChatGPT...)
     │
     ├── GET /           → Landing page (para humanos)
     └── POST /mcp       → MCP Streamable HTTP
-         ├── resources  → 15 categorias de conhecimento
+         ├── resources  → 55 categorias de conhecimento
          ├── tools      → search_ozav(query)
          └── prompts    → 3 templates
 ```

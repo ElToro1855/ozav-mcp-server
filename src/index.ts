@@ -190,8 +190,8 @@ app.get('/', (c) => {
 
     <div class="features">
       <div class="feature">
-        <strong>15 Categorias / Categories</strong>
-        <span>Base de conhecimento bilingual (PT/EN) sobre cambio e pagamentos internacionais</span>
+        <strong>55 Categorias / Categories</strong>
+        <span>Base de conhecimento bilingual (PT/EN) sobre cambio, pagamentos internacionais e 40+ setores</span>
       </div>
       <div class="feature">
         <strong>Busca Semantica</strong>
