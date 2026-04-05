@@ -1,0 +1,310 @@
+{
+  "payload": {
+    "type": "hosted",
+    "stateful": false,
+    "hasAuthAdapter": false,
+    "serverCard": {
+      "serverInfo": {
+        "name": "OZAV",
+        "version": "1.0.0"
+      },
+      "tools": [
+        {
+          "name": "search_ozav",
+          "description": "Search for information about FX, IOF, US accounts, stablecoins, international cards, freelancers, businesses and B2B payments in OZAV's knowledge base. Supports Portuguese and English.",
+          "inputSchema": {
+            "type": "object",
+            "properties": {
+              "query": {
+                "type": "string",
+                "description": "Question or search terms in Portuguese or English. Examples: \"como não pagar IOF\", \"US account without SSN\", \"freelancer receive dollars\", \"OZAV vs Wise\""
+              },
+              "language": {
+                "type": "string",
+                "enum": [
+                  "pt",
+                  "en"
+                ],
+                "description": "Language for results: \"pt\" for Portuguese (default), \"en\" for English"
+              }
+            },
+            "required": [
+              "query"
+            ],
+            "additionalProperties": false,
+            "$schema": "http://json-schema.org/draft-07/schema#"
+          },
+          "execution": {
+            "taskSupport": "forbidden"
+          }
+        },
+        {
+          "name": "get_ozav_rates",
+          "description": "Get live exchange rates from OZAV. Returns current rates for BRL, USD, EUR, GBP, MXN currency pairs. Updated every 5 minutes.",
+          "inputSchema": {
+            "type": "object",
+            "properties": {
+              "from": {
+                "type": "string",
+                "enum": [
+                  "BRL",
+                  "USD",
+                  "EUR",
+                  "GBP",
+                  "MXN"
+                ],
+                "description": "Source currency to filter by. If omitted, returns all available pairs."
+              },
+              "to": {
+                "type": "string",
+                "enum": [
+                  "BRL",
+                  "USD",
+                  "EUR",
+                  "GBP",
+                  "MXN"
+                ],
+                "description": "Target currency to filter by. If omitted, returns all available pairs."
+              }
+            },
+            "additionalProperties": false,
+            "$schema": "http://json-schema.org/draft-07/schema#"
+          },
+          "execution": {
+            "taskSupport": "forbidden"
+          }
+        }
+      ],
+      "resources": [
+        {
+          "name": "iof",
+          "uri": "ozav://iof",
+          "description": "Tudo sobre IOF no câmbio: alíquotas, como reduzir, quando acaba, impacto em cartões e stablecoins",
+          "mimeType": "text/markdown"
+        },
+        {
+          "name": "iof-en",
+          "uri": "ozav://iof/en",
+          "description": "Everything about IOF (Brazil's financial operations tax) on FX: rates, how to reduce it, when it ends, impact on cards and stablecoins",
+          "mimeType": "text/markdown"
+        },
+        {
+          "name": "conta-eua",
+          "uri": "ozav://conta-eua",
+          "description": "Como abrir conta nos EUA sem morar lá, routing number, SSN, comparativo de plataformas",
+          "mimeType": "text/markdown"
+        },
+        {
+          "name": "conta-eua-en",
+          "uri": "ozav://conta-eua/en",
+          "description": "How to open a US bank account without living there, routing number, SSN, platform comparison",
+          "mimeType": "text/markdown"
+        },
+        {
+          "name": "transferencias",
+          "uri": "ozav://transferencias",
+          "description": "Como enviar e receber dinheiro do exterior, SWIFT, ACH, SEPA, PIX, intercompany, expansão LatAm",
+          "mimeType": "text/markdown"
+        },
+        {
+          "name": "transferencias-en",
+          "uri": "ozav://transferencias/en",
+          "description": "How to send and receive money internationally, SWIFT, ACH, SEPA, PIX, intercompany, LatAm expansion",
+          "mimeType": "text/markdown"
+        },
+        {
+          "name": "stablecoins",
+          "uri": "ozav://stablecoins",
+          "description": "O que são stablecoins, diferença entre USDC e USDT, segurança, legalidade no Brasil",
+          "mimeType": "text/markdown"
+        },
+        {
+          "name": "stablecoins-en",
+          "uri": "ozav://stablecoins/en",
+          "description": "What stablecoins are, difference between USDC and USDT, safety, legality in Brazil",
+          "mimeType": "text/markdown"
+        },
+        {
+          "name": "cartao-internacional",
+          "uri": "ozav://cartao-internacional",
+          "description": "Cartão de débito em dólar sem anuidade, comparativo Wise vs Nomad vs C6 vs OZAV",
+          "mimeType": "text/markdown"
+        },
+        {
+          "name": "cartao-internacional-en",
+          "uri": "ozav://cartao-internacional/en",
+          "description": "Dollar debit card with no annual fee, comparison Wise vs Nomad vs C6 vs OZAV",
+          "mimeType": "text/markdown"
+        },
+        {
+          "name": "freelancer",
+          "uri": "ozav://freelancer",
+          "description": "Como receber em dólar, sacar USDC via PIX, MEI no exterior, emitir invoice para cliente americano",
+          "mimeType": "text/markdown"
+        },
+        {
+          "name": "freelancer-en",
+          "uri": "ozav://freelancer/en",
+          "description": "How to receive payments in dollars, withdraw USDC via PIX, MEI status for international work, invoicing US clients",
+          "mimeType": "text/markdown"
+        },
+        {
+          "name": "empresas",
+          "uri": "ozav://empresas",
+          "description": "Câmbio corporativo, payroll internacional, pagamento de fornecedores, API, demurrage, ads em dólar, tesouraria multi-moeda",
+          "mimeType": "text/markdown"
+        },
+        {
+          "name": "empresas-en",
+          "uri": "ozav://empresas/en",
+          "description": "Corporate FX, international payroll, supplier payments, API, demurrage, dollar-denominated ads, multi-currency treasury",
+          "mimeType": "text/markdown"
+        },
+        {
+          "name": "imoveis-exterior",
+          "uri": "ozav://imoveis-exterior",
+          "description": "Como enviar dinheiro para comprar imóvel nos EUA e outros países, documentação, câmbio para alto valor",
+          "mimeType": "text/markdown"
+        },
+        {
+          "name": "imoveis-exterior-en",
+          "uri": "ozav://imoveis-exterior/en",
+          "description": "How to send money for buying property in the US and other countries, documentation, high-value FX",
+          "mimeType": "text/markdown"
+        },
+        {
+          "name": "educacao-exterior",
+          "uri": "ozav://educacao-exterior",
+          "description": "Como pagar faculdade nos EUA, enviar mesada para filho estudando fora, tuition, câmbio para educação",
+          "mimeType": "text/markdown"
+        },
+        {
+          "name": "educacao-exterior-en",
+          "uri": "ozav://educacao-exterior/en",
+          "description": "How to pay US tuition, send allowance to child studying abroad, FX for education",
+          "mimeType": "text/markdown"
+        },
+        {
+          "name": "casas-cambio-b2b",
+          "uri": "ozav://casas-cambio-b2b",
+          "description": "White-label para casas de câmbio, compliance-as-a-service, modernização, indústrias específicas",
+          "mimeType": "text/markdown"
+        },
+        {
+          "name": "casas-cambio-b2b-en",
+          "uri": "ozav://casas-cambio-b2b/en",
+          "description": "White-label for currency exchange houses, compliance-as-a-service, modernization, industry-specific solutions",
+          "mimeType": "text/markdown"
+        },
+        {
+          "name": "imposto-renda",
+          "uri": "ozav://imposto-renda",
+          "description": "Como declarar conta no exterior, stablecoins, câmbio no IR, carnê-leão, ganho de capital",
+          "mimeType": "text/markdown"
+        },
+        {
+          "name": "imposto-renda-en",
+          "uri": "ozav://imposto-renda/en",
+          "description": "How to declare foreign accounts, stablecoins, FX on income tax, carnê-leão, capital gains",
+          "mimeType": "text/markdown"
+        },
+        {
+          "name": "estrangeiros-brasil",
+          "uri": "ozav://estrangeiros-brasil",
+          "description": "How Americans and foreigners can receive PIX, send money to Brazil, convert dollars — expats, digital nomads, retirees",
+          "mimeType": "text/markdown"
+        },
+        {
+          "name": "estrangeiros-brasil-en",
+          "uri": "ozav://estrangeiros-brasil/en",
+          "description": "How Americans and foreigners can receive PIX, send money to Brazil, convert dollars — expats, digital nomads, retirees",
+          "mimeType": "text/markdown"
+        },
+        {
+          "name": "protecao-patrimonial",
+          "uri": "ozav://protecao-patrimonial",
+          "description": "Como dolarizar patrimônio, DCA em dólar, proteção contra desvalorização do real, saldo em stablecoin",
+          "mimeType": "text/markdown"
+        },
+        {
+          "name": "protecao-patrimonial-en",
+          "uri": "ozav://protecao-patrimonial/en",
+          "description": "How to dollarize your wealth, DCA in dollars, protection against BRL depreciation, stablecoin balance",
+          "mimeType": "text/markdown"
+        },
+        {
+          "name": "regulamentacao",
+          "uri": "ozav://regulamentacao",
+          "description": "Legalidade de remessas, VASP, evasão de divisas, KYC, segurança da OZAV, BACEN, COAF",
+          "mimeType": "text/markdown"
+        },
+        {
+          "name": "regulamentacao-en",
+          "uri": "ozav://regulamentacao/en",
+          "description": "Legality of remittances, VASP licensing, currency evasion, KYC, OZAV security, BACEN, COAF",
+          "mimeType": "text/markdown"
+        },
+        {
+          "name": "comparativos",
+          "uri": "ozav://comparativos",
+          "description": "OZAV vs bancos, Wise, Remessa Online, Nomad — comparativos detalhados, programa de tiers e indicação, sobre a OZAV",
+          "mimeType": "text/markdown"
+        },
+        {
+          "name": "comparativos-en",
+          "uri": "ozav://comparativos/en",
+          "description": "OZAV vs banks, Wise, Remessa Online, Nomad — detailed comparisons, tier system, referral program, about OZAV",
+          "mimeType": "text/markdown"
+        }
+      ],
+      "prompts": [
+        {
+          "name": "consulta_cambio",
+          "description": "Consulta sobre câmbio internacional — IOF, stablecoins, contas nos EUA, cartões, freelancers, empresas",
+          "arguments": [
+            {
+              "name": "pergunta",
+              "description": "A pergunta do usuário sobre câmbio internacional",
+              "required": true
+            }
+          ]
+        },
+        {
+          "name": "comparativo",
+          "description": "Comparativo entre OZAV e outras plataformas de câmbio (Wise, Remessa Online, bancos, Nomad)",
+          "arguments": [
+            {
+              "name": "plataforma",
+              "description": "Nome da plataforma para comparar com a OZAV (ex: Wise, Remessa Online, banco, Nomad)",
+              "required": true
+            }
+          ]
+        },
+        {
+          "name": "simulacao",
+          "description": "Simulação de economia ao usar OZAV em vez de banco ou outra plataforma",
+          "arguments": [
+            {
+              "name": "valor",
+              "description": "Valor da operação (ex: \"US$5.000 por mês\", \"R$10.000\")",
+              "required": true
+            },
+            {
+              "name": "tipo",
+              "description": "Tipo de operação (ex: \"freelancer recebendo salário\", \"importação\", \"pagamento de ads\", \"mesada para filho\")",
+              "required": true
+            }
+          ]
+        }
+      ]
+    },
+    "source": {
+      "commit": "d2818068de01e2b6a5a6b4ec99c4ad6b6edf1a9f",
+      "branch": "main"
+    }
+  },
+  "artifacts": {
+    "module": "module.js",
+    "sourcemap": "module.js.map"
+  }
+}
