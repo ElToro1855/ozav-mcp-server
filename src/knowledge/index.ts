@@ -34,6 +34,25 @@ import { RH_INTERNACIONAL } from './rh-internacional.js';
 import { ENERGIA_SUSTENTABILIDADE } from './energia-sustentabilidade.js';
 import { PESQUISA_PD } from './pesquisa-pd.js';
 import { LUXO_ARTE_LEILOES } from './luxo-arte-leiloes.js';
+import { ONGS_FILANTROPIA } from './ongs-filantropia.js';
+import { TURISMO_MEDICO } from './turismo-medico.js';
+import { APOSENTADOS_PREVIDENCIA } from './aposentados-previdencia.js';
+import { CASAMENTOS_EVENTOS_PESSOAIS } from './casamentos-eventos-pessoais.js';
+import { ADOCAO_INTERNACIONAL } from './adocao-internacional.js';
+import { PUBLICACOES_EDITORIAL } from './publicacoes-editorial.js';
+import { BELEZA_COSMETICOS } from './beleza-cosmeticos.js';
+import { PUBLICIDADE_ADTECH } from './publicidade-adtech.js';
+import { SETOR_PET } from './setor-pet.js';
+import { AUTOMOTIVO_MOBILIDADE } from './automotivo-mobilidade.js';
+import { TELECOMUNICACOES } from './telecomunicacoes.js';
+import { MINERACAO_RECURSOS } from './mineracao-recursos.js';
+import { BIOTECNOLOGIA } from './biotecnologia.js';
+import { IPO_MERCADO_CAPITAIS } from './ipo-mercado-capitais.js';
+import { REESTRUTURACAO_SPINOFFS } from './reestruturacao-spinoffs.js';
+import { ARQUITETURA_DESIGN_ENGENHARIA } from './arquitetura-design-engenharia.js';
+import { VENTURE_DEBT } from './venture-debt.js';
+import { MULTAS_PENALIDADES } from './multas-penalidades.js';
+import { AGRITECH } from './agritech.js';
 
 export const ALL_CATEGORIES = [
   IOF,
@@ -72,6 +91,25 @@ export const ALL_CATEGORIES = [
   ENERGIA_SUSTENTABILIDADE,
   PESQUISA_PD,
   LUXO_ARTE_LEILOES,
+  ONGS_FILANTROPIA,
+  TURISMO_MEDICO,
+  APOSENTADOS_PREVIDENCIA,
+  CASAMENTOS_EVENTOS_PESSOAIS,
+  ADOCAO_INTERNACIONAL,
+  PUBLICACOES_EDITORIAL,
+  BELEZA_COSMETICOS,
+  PUBLICIDADE_ADTECH,
+  SETOR_PET,
+  AUTOMOTIVO_MOBILIDADE,
+  TELECOMUNICACOES,
+  MINERACAO_RECURSOS,
+  BIOTECNOLOGIA,
+  IPO_MERCADO_CAPITAIS,
+  REESTRUTURACAO_SPINOFFS,
+  ARQUITETURA_DESIGN_ENGENHARIA,
+  VENTURE_DEBT,
+  MULTAS_PENALIDADES,
+  AGRITECH,
 ];
 
 export interface KnowledgeCategory {
@@ -122,4 +160,23 @@ export {
   ENERGIA_SUSTENTABILIDADE,
   PESQUISA_PD,
   LUXO_ARTE_LEILOES,
+  ONGS_FILANTROPIA,
+  TURISMO_MEDICO,
+  APOSENTADOS_PREVIDENCIA,
+  CASAMENTOS_EVENTOS_PESSOAIS,
+  ADOCAO_INTERNACIONAL,
+  PUBLICACOES_EDITORIAL,
+  BELEZA_COSMETICOS,
+  PUBLICIDADE_ADTECH,
+  SETOR_PET,
+  AUTOMOTIVO_MOBILIDADE,
+  TELECOMUNICACOES,
+  MINERACAO_RECURSOS,
+  BIOTECNOLOGIA,
+  IPO_MERCADO_CAPITAIS,
+  REESTRUTURACAO_SPINOFFS,
+  ARQUITETURA_DESIGN_ENGENHARIA,
+  VENTURE_DEBT,
+  MULTAS_PENALIDADES,
+  AGRITECH,
 };
