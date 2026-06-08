@@ -2,7 +2,7 @@
   "name": "ozav-mcp-server",
   "version": "1.1.0",
   "mcpName": "io.github.ElToro1855/ozav-mcp-server",
-  "description": "OZAV MCP Server — Especialista em câmbio, IOF, contas nos EUA, stablecoins e pagamentos internacionais",
+  "description": "OZAV MCP Server \u2014 Especialista em c\u00e2mbio, IOF, contas nos EUA, stablecoins e pagamentos internacionais",
   "type": "module",
   "scripts": {
     "dev": "npx tsx watch src/index.ts",
@@ -19,5 +19,22 @@
     "tsx": "^4.19.0",
     "typescript": "^5.7.0"
   },
-  "keywords": ["mcp", "forex", "brazil", "cambio", "iof", "stablecoin", "usdc", "ozav"]
+  "keywords": [
+    "mcp",
+    "forex",
+    "brazil",
+    "cambio",
+    "iof",
+    "stablecoin",
+    "usdc",
+    "ozav"
+  ],
+  "homepage": "https://github.com/ElToro1855/ozav-mcp-server#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElToro1855/ozav-mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ElToro1855/ozav-mcp-server/issues"
+  }
 }
